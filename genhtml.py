@@ -17,6 +17,13 @@ def create_collapsible(data):
     bo = "<b>"
     bc = "</b>"
 
+    linkpre = "<a href=\""
+    linkurl = ""
+    linkmid = "\"> "
+    linktext = ""
+    linkclose = "</a>"
+    link = ""
+
     collapsible_list = []
     collapsed_content = []
 
@@ -26,7 +33,14 @@ def create_collapsible(data):
             content.append([])
             name[map_num-1].append(data[map_num][0])
             for info in range(len(data[map_num])):
-                content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + data[map_num][info] + br + "\n"))
+                if "http" in data[map_num][info]:
+                    linkurl = data[map_num][info]
+                    linktext = str(name[map_num-1]).strip('[]\'')
+                    link = linkpre + linkurl + linkmid + linktext + linkclose
+                    print(link)
+                    content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + link + br + "\n"))
+                else:
+                    content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + data[map_num][info] + br + "\n"))
                 
 
     for content_num in range(len(content)):
