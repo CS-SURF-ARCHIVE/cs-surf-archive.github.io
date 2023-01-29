@@ -1,0 +1,6 @@
+
+__pycache__/sheetdata.cpython-310.pyc
+*.json
+docs
+raremaps.py
+quickstart.py
