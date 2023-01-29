@@ -1,1 +1,79 @@
-<h1>wow neat</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Surf Maps Archive</h1><button type="button" class="collapsible">surf_test</button>
+<div class="content">
+  <p><b>name</b>: <br /> 
+ &emsp; surf_test <br />
+
+<b>author</b>: <br /> 
+ &emsp; test author <br />
+
+<b>release date</b>: <br /> 
+ &emsp; test release <br />
+
+<b>type</b>: <br /> 
+ &emsp; test type <br />
+
+<b>game</b>: <br /> 
+ &emsp; test game <br />
+
+<b>notes</b>: <br /> 
+ &emsp; test notes <br />
+
+<b>download link</b>: <br /> 
+ &emsp; test dl <br />
+
+<b>screenshot link</b>: <br /> 
+ &emsp; if we use this? <br />
+</p>
+</div><button type="button" class="collapsible">surf_test2</button>
+<div class="content">
+  <p><b>name</b>: <br /> 
+ &emsp; surf_test2 <br />
+
+<b>author</b>: <br /> 
+ &emsp; test author 2 <br />
+
+<b>release date</b>: <br /> 
+ &emsp; test release 2 <br />
+
+<b>type</b>: <br /> 
+ &emsp; test type 2 <br />
+
+<b>game</b>: <br /> 
+ &emsp; test game 2 <br />
+
+<b>notes</b>: <br /> 
+ &emsp; test notes 2 <br />
+
+<b>download link</b>: <br /> 
+ &emsp; test dl 2 <br />
+
+<b>screenshot link</b>: <br /> 
+ &emsp; test ss 2 <br />
+</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
