@@ -32,7 +32,12 @@
   }
 
   h1 {
-    color:black
+    color:black;
+    padding-left: 5%;
+  }
+  
+  p {
+    padding-left: 5%;
   }
 
   table {
