@@ -35,7 +35,7 @@ def create_collapsible(data):
             content.append([])
             name[map_num-1].append(data[map_num][0])
             for info in range(len(data[map_num])):
-                if "http" in data[map_num][info]: # build a link if it finds HTTP in the string
+                if "drive.google.com" in data[map_num][info]: # build a link if it finds HTTP in the string
                     linkurl = data[map_num][info]
                     linktext = str(name[map_num-1]).strip('[]\'')
                     link = linkpre + linkurl + linkmid + linktext + linkclose
@@ -48,7 +48,7 @@ def create_collapsible(data):
     for content_num in range(len(content)):
         collapsed_content.append("\n".join(content[content_num])) # join all the individual items into a single string
 
-        if "http" in collapsed_content[content_num]:
+        if "drive.google.com" in collapsed_content[content_num]:
             collapsible_list_dl.append(pre+str(name[content_num]).strip('[]\'')+bridge+str(collapsed_content[content_num])+final)
         else:
             collapsible_list_no_dl.append(pre+str(name[content_num]).strip('[]\'')+bridge+str(collapsed_content[content_num])+final)
