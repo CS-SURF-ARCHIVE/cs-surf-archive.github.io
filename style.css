@@ -32,5 +32,29 @@
   }
 
   h1 {
-    color:black
+    color:black;
+    padding-left: 5%;
+  }
+  
+  p {
+    padding-left: 5%;
+  }
+
+  table {
+    align-self: left;
+    padding-left: 3%;
+    width: 75%;
+  }
+
+  th {
+    color: black;
+    align-items: left;
+    align-content: left;
+    align-self: left;
+    padding-right: 20%;
+  }
+
+  td {
+    vertical-align: top;
+    width: 50%;
   }
