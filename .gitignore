@@ -5,3 +5,4 @@ docs
 raremaps.py
 quickstart.py
 gentable
+__pycache__/test_mapname_filename_match.cpython-310.pyc
