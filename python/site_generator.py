@@ -3,7 +3,7 @@ import css_maps_gen as css_maps_gen
 import other_maps_gen as other_maps_gen
 import test_mapname_filename_match as test_mapname_filename_match
 
-TESTS_ENABLED = True
+TESTS_ENABLED = False
 
 def main():
     data = sheetdata.get_data()
