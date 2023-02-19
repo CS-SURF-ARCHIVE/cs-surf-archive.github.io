@@ -1,5 +1,5 @@
 
-__pycache__/sheetdata.cpython-310.pyc
+__pycache__/*
 *.json
 docs
 raremaps.py
