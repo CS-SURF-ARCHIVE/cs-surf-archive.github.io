@@ -1,12 +1,17 @@
-import sheetdata
-import test_mapname_filename_match
+import sheetdata as sheetdata
+import css_maps_gen as css_maps_gen
+import other_maps_gen as other_maps_gen
+import test_mapname_filename_match as test_mapname_filename_match
+
+TESTS_ENABLED = True
 
 def main():
     data = sheetdata.get_data()
     collapsible_with_dl, collapsible_no_dl = create_collapsible(data)
-    table_data = build_table(collapsible_with_dl, collapsible_no_dl)
-    site = build_index_html(table_data)
-    write_file(site)
+    css_dl, css_no_dl, other_dl, other_no_dl, = split_map_by_game(collapsible_with_dl, collapsible_no_dl)
+    css_maps_gen.build(css_dl, css_no_dl)
+    other_maps_gen.build(other_dl, other_no_dl)
+
 
 def create_collapsible(data):
     pre = "<button type=\"button\" class=\"collapsible\">"
@@ -40,7 +45,6 @@ def create_collapsible(data):
                     linkurl = data[map_num][info]
                     linktext = str(name[map_num-1]).strip('[]\'')
                     link = linkpre + linkurl + linkmid + linktext + linkclose
-                    print(link)
                     content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + link + br + "\n"))
                 else:
                     content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + data[map_num][info] + br + "\n"))
@@ -56,53 +60,30 @@ def create_collapsible(data):
 
     return collapsible_list_dl, collapsible_list_no_dl
 
-def build_table(collapsible_list_dl, collapsible_list_no_dl):
-    tablepre = "<table>\n\t<tr>\n\t\t<th>With Download</th>\n\t\t<th>Without download</th>\n\t</tr>"
-    tablemid = []
-    tablepost = "\n</table>"
+def split_map_by_game(collapsible_list_dl, collapsible_list_no_dl):
+    collapsible_list_css_dl = []
+    collapsible_list_css_no_dl = []
+    collapsible_list_1p6_dl = []
+    collapsible_list_1p6_no_dl = []
 
-    tablemid.append([])
-    for map in range(len(collapsible_list_dl)):
-        tablemid[0].append(collapsible_list_dl[map])
-
-    tablemid.append([])
-    for map in range(len(collapsible_list_no_dl)):
-        tablemid[1].append(collapsible_list_no_dl[map])
-
-    #print(tablemid)
-
-    tablemid = "<tr>\n\t<td>" + "".join(collapsible_list_dl) + "</td>\n\t\t<td>" + "".join(collapsible_list_no_dl) + "</td>\n</tr>"
-    tablecontent = tablepre+tablemid+tablepost
-    print(tablecontent)
-    return tablecontent
-
-def index_html_boilerplate():
-    preboilersrc = "preboiler.html"
-    postboilersrc = "postboiler.html"
-
-    with open(preboilersrc, 'r') as file:
-        preboiler = file.read()
-
-    with open(postboilersrc, 'r') as file:
-        postboiler = file.read()
-
-    return preboiler, postboiler
-
-def build_index_html(table_data):
-    preboiler, postboiler = index_html_boilerplate()
-
-    content = "".join(table_data)
-
-    whole_site = preboiler + content + postboiler
-
-    return whole_site
-
-def write_file(whole_site):
-    index = "index.html"
-    with open(index, 'w') as file:
-        file.write(whole_site)
+    for item in range(len(collapsible_list_dl)):
+        if " CSS " in collapsible_list_dl[item]:
+            collapsible_list_css_dl.append(collapsible_list_dl[item])
+        else:
+            collapsible_list_1p6_dl.append(collapsible_list_dl[item])
+    
+    for item in range(len(collapsible_list_no_dl)):
+        if " CSS " in collapsible_list_dl[item]:
+            collapsible_list_css_no_dl.append(collapsible_list_no_dl[item])
+        else:
+            collapsible_list_1p6_no_dl.append(collapsible_list_no_dl[item])
+    
+    return collapsible_list_css_dl, collapsible_list_css_no_dl, collapsible_list_1p6_dl, collapsible_list_1p6_no_dl
 
 if __name__ == '__main__':
     main()
-    test_mapname_filename_match.check_names()
-    print("all done!!")
+    if TESTS_ENABLED == True:
+        test_mapname_filename_match.check_names()
+        print("all done with tests!!")
+    else:
+        print("no tests, all done")
