@@ -52,7 +52,10 @@ def check_names():
                 download_link = testdata[row][item]
                 file_id = download_link.split('/')[-2]
                 file_name = service.files().get(fileId=file_id, fields='name').execute()
+                file_name_split = file_name['name'].rsplit('.', 1)[0].lower()
 
-                if map_name.lower() not in file_name['name'].lower():
-                    print("mismatched link for ", map_name, ", got ", file_name['name'], " download")
-                
+                if map_name.lower() != file_name_split:
+                    print("mismatched link for", map_name, ", got", file_name_split, "download name")
+
+if __name__ == "__main__":
+    check_names()
