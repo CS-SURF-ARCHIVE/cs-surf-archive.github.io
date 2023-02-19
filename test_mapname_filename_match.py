@@ -56,4 +56,3 @@ def check_names():
                 if map_name.lower() not in file_name['name'].lower():
                     print("mismatched link for ", map_name, ", got ", file_name['name'], " download")
                 
-check_names()

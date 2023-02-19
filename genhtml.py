@@ -1,4 +1,5 @@
 import sheetdata
+import test_mapname_filename_match
 
 def main():
     data = sheetdata.get_data()
@@ -103,3 +104,5 @@ def write_file(whole_site):
 
 if __name__ == '__main__':
     main()
+    test_mapname_filename_match.check_names()
+    print("all done!!")
