@@ -1,9 +1,11 @@
 import sheetdata as sheetdata
 import css_maps_gen as css_maps_gen
 import other_maps_gen as other_maps_gen
-import test_mapname_filename_match as test_mapname_filename_match
+import test_mapname_filename_match
+import test_drive_matches_sheet
 
-TESTS_ENABLED = False
+TESTS_ENABLED = True
+WRITE_TO_SHEET = True
 
 def main():
     data = sheetdata.get_data()
@@ -83,6 +85,9 @@ def split_map_by_game(collapsible_list_dl, collapsible_list_no_dl):
 if __name__ == '__main__':
     main()
     if TESTS_ENABLED == True:
+        print("Testing if all drive files have sheet entry")
+        test_drive_matches_sheet.get_downloads_for_missing_maps(WRITE_TO_SHEET)
+        print("Testing if all mapnames match filenames for downloads")
         test_mapname_filename_match.check_names()
         print("all done with tests!!")
     else:
