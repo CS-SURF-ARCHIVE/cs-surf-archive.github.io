@@ -16,3 +16,4 @@ python/__pycache__/css_maps_gen.cpython-310.pyc
 python/__pycache__/other_maps_gen.cpython-310.pyc
 python/__pycache__/sheetdata.cpython-310.pyc
 python/__pycache__/test_mapname_filename_match.cpython-310.pyc
+*.pyc
