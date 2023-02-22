@@ -12,7 +12,7 @@ def get_drive_items():
     page_size = 1000
     drive_service = build('drive', 'v3', credentials=creds)
     folder_id = '1BwsG6pIsRFiCGGG7ppiLSJ0NbLv7_Xv4'
-    query = f"'{folder_id}' in parents"
+    query = f"'{folder_id}' in parents and trashed = false"
     page_token = None
     count = 0
 
