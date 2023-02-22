@@ -11,6 +11,7 @@
     outline: none;
     margin: 1px;
     font-size: 15px;
+    padding-left: 2%;
   }
   
   .active, .collapsible:hover {
@@ -22,7 +23,7 @@
     display: none;
     overflow: hidden;
     width: 60%;
-    padding-left: 5%;
+    
     margin-left: 5%;
     background-color: #f1f1f1;
   }
