@@ -35,12 +35,14 @@ def check_names():
     for row in range(len(testdata)):
         for item in range(len(testdata[row])):    
             if "drive.google.com" in testdata[row][item]:
-                map_name = testdata[row][0]
-                
-                download_link = testdata[row][item]
-                file_id = download_link.split('/')[-2]
-                file_name = service.files().get(fileId=file_id, fields='name').execute()
-                file_name_split = file_name['name'].rsplit('.', 1)[0].lower()
+                try:
+                    map_name = testdata[row][0]
+                    download_link = testdata[row][item]
+                    file_id = download_link.split('/')[-2]
+                    file_name = service.files().get(fileId=file_id, fields='name').execute()
+                    file_name_split = file_name['name'].rsplit('.', 1)[0].lower()
+                except:
+                    print("error on ", map_name)
 
                 if map_name.lower() != file_name_split:
                     print("mismatched link for", map_name, ", got", file_name_split, "download name")
