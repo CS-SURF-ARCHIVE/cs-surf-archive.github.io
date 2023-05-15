@@ -3,8 +3,6 @@
 # to determine the game and then enter into the sheet
 # i don't want to automate it so here it is
 
-
-
 import os
 import bsp_tool
 

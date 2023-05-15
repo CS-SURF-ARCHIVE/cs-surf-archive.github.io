@@ -51,7 +51,6 @@ def create_collapsible(data):
                 else:
                     content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + data[map_num][info] + br + "\n"))
                 
-
     for content_num in range(len(content)):
         collapsed_content.append("\n".join(content[content_num])) # join all the individual items into a single string
 
@@ -75,7 +74,7 @@ def split_map_by_game(collapsible_list_dl, collapsible_list_no_dl):
             collapsible_list_1p6_dl.append(collapsible_list_dl[item])
     
     for item in range(len(collapsible_list_no_dl)):
-        if "CSS" in collapsible_list_dl[item]:
+        if "CSS" in collapsible_list_no_dl[item]:
             collapsible_list_css_no_dl.append(collapsible_list_no_dl[item])
         else:
             collapsible_list_1p6_no_dl.append(collapsible_list_no_dl[item])
