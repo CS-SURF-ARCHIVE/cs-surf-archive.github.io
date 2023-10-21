@@ -1,66 +1,68 @@
 .collapsible {
-    background-color: rgb(151, 151, 151);
-    color: white;
-    cursor: pointer;
-    padding: 7px;
-    width: 75%;
-    border: line-width=1px;
-    border-style: solid;
-    border-color:rgb(82, 82, 82);
-    text-align: left;
-    outline: none;
-    margin: 1px;
-    font-size: 15px;
-    padding-left: 2%;
-  }
-  
-  .active, .collapsible:hover {
-    background-color: #555;
-  }
-  
-  .content {
-    padding: 1px;
-    display: none;
-    overflow: hidden;
-    width: 60%;
-    
-    margin-left: 5%;
-    background-color: #f1f1f1;
-  }
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid #555;
+  text-align: left;
+  outline: none;
+  margin: 5px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
 
-  body {
-    background-color: #777;
-  }
+.collapsible:hover {
+  background-color: #444;
+}
 
-  h1 {
-    color:black;
-    padding-left: 4%;
-  }
+.active {
+  background-color: #555;
+}
 
-  h3 {
-    color:black;
-    padding-left: 4%;
-  }
-  
-  p {
-    padding-left: 4%;
-  }
+.content {
+  padding: 10px;
+  display: none;
+  width: 70%; /* Adjusted the width */
+  margin: 5px 15px 0; /* Centered the content */
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
 
-  table {
-    align-self: left;
-    padding-left: 3%;
-    width: 75%;
-  }
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
 
-  th {
-    color: black;
-    align-items: left;
-    align-content: left;
-    align-self: left;
-    padding-right: 20%;
-  }
+h1, h3 {
+  color: #333;
+  padding-left: 4%;
+}
 
-  td {
-    vertical-align: top;
-    width: 50%;
-  }
+p {
+  padding-left: 4%;
+}
+
+table {
+  width: 75%;
+  margin-left: 5%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  width: 50%; /* Split the columns evenly */
+}
+
+th {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+}
+
+td {
+  border: 1px solid #777;
+}
