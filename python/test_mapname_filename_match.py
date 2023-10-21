@@ -1,3 +1,9 @@
+# this thing kinda sucks it was written when we were still doing
+# a lot of the sheet manually.
+
+# a better thing to do would be to just write the cells
+# with the google drive link each time, like I do for test_screenshots_in_sheet.py
+
 import requests
 import sheetdata
 import re
@@ -30,20 +36,22 @@ def get_filename(url):
     return None
 
 def check_names():
+    i = 0
     for row in range(len(testdata)):
-        for item in range(len(testdata[row])):    
-            if "drive.google.com" in testdata[row][item]:
-                try:
-                    map_name = testdata[row][0]
-                    download_link = testdata[row][item]
-                    file_id = download_link.split('/')[-2]
-                    file_name = service.files().get(fileId=file_id, fields='name').execute()
-                    file_name_split = file_name['name'].rsplit('.', 1)[0].lower()
-                except:
-                    print("error on ", map_name)
+        if "drive.google.com" in testdata[row][6]:
+            #print(i)
+            i+=1
+            try:
+                map_name = testdata[row][0]
+                download_link = testdata[row][6]
+                file_id = download_link.split('/')[-2]
+                file_name = service.files().get(fileId=file_id, fields='name').execute()
+                file_name_split = file_name['name'].rsplit('.', 1)[0].lower()
+            except:
+                print("error on ", map_name)
 
-                if map_name.lower() != file_name_split:
-                    print("mismatched link for", map_name, ", got", file_name_split, "download name")
+            if map_name.lower() != file_name_split:
+                print("mismatched link for", map_name, ", got", file_name_split, "download name")
 
 if __name__ == "__main__":
     check_names()

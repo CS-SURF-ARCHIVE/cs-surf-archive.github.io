@@ -12,7 +12,7 @@ from googleapiclient.errors import HttpError
 
 
 SAMPLE_SPREADSHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig'
-SAMPLE_RANGE_NAME = 'a1:h1000'
+SAMPLE_RANGE_NAME = "'Surf maps'" # name of the sheet, has to be in 's because of space
 
 def get_data():
 
@@ -34,4 +34,12 @@ def get_data():
     except HttpError as err:
         print(err)
 
+    # i = 0
+    # for value in values:
+    #     i += 1
+    #     (print(i, value))
+        
     return values
+
+if __name__ == "__main__":
+    get_data()
