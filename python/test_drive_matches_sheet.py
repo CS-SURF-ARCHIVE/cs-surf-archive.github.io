@@ -16,17 +16,23 @@ def get_drive_items():
     page_token = None
     count = 0
 
+    drive_items = []
+
     while True:
         # Call the Files:list method to retrieve a page of files and folders in the specified folder
         results = drive_service.files().list(q=query, fields="nextPageToken, files(id, name, mimeType)", pageSize=page_size, pageToken=page_token).execute()
 
         # Print the list of files and folders in the current page
-        drive_items = results.get('files', [])
-        if not drive_items:
+        items = results.get('files', [])
+        if not items:
             print('No files or folders found.')
         else:
-            for item in drive_items:
-                count += 1
+            for item in items:
+                # Check if the item is a file (not a folder)
+                if item.get('mimeType') != 'application/vnd.google-apps.folder':
+                    drive_items.append(item)  # Only add files to the drive_items list
+                else:
+                    print("non-file found ", item)
 
         # Check if there are more pages of results
         page_token = results.get('nextPageToken')
@@ -52,7 +58,8 @@ def compare_sheet_and_drive():
         if ' ' in drive_item_mapname:     #for some reason " (1)" can get appended to end of files, remove it
             drive_item_mapname = drive_item_mapname.split(' ')
             drive_item_mapname = str(drive_item_mapname[0])
-
+        
+        #print(drive_item_mapname)
         drive_item_dict["mapname"].append(drive_item_mapname)
         drive_item_dict["maplink"].append(drive_item_maplink)
     
