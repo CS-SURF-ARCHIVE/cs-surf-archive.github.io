@@ -1,3 +1,9 @@
+# maybe write something that finds maps that don't have a dl link
+# and adds the dl link if it exists?
+# situation occurs when we have a map name and info in the sheet
+# but then add the download later
+# it will not be picked up and added unless done manually
+
 import os
 import sheetdata
 import gtoken
