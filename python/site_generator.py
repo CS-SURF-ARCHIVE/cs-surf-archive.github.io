@@ -3,6 +3,7 @@ import css_maps_gen as css_maps_gen
 import other_maps_gen as other_maps_gen
 import test_mapname_filename_match
 import test_drive_matches_sheet
+import test_screenshots_in_sheet
 
 TESTS_ENABLED = True
 WRITE_TO_SHEET = True
@@ -37,7 +38,7 @@ def create_collapsible(data):
     collapsible_list_no_dl = []
     collapsed_content = []
 
-    for map_num in range(len(data)):
+    for map_num in range(len(data)):  #rewrite this link crap so it's not looking at the entire row for the link, but the specific index, that way i can build embed in too
         name.append([])
         if map_num != 0: # first index is always headers, so skip
             content.append([])
@@ -84,6 +85,8 @@ def split_map_by_game(collapsible_list_dl, collapsible_list_no_dl):
 if __name__ == '__main__':
     main()
     if TESTS_ENABLED == True:
+        print("Writing links to all screenshots in drive to sheet")
+        test_screenshots_in_sheet.generate_rows_with_screenshot()
         print("Testing if all drive files have sheet entry")
         test_drive_matches_sheet.get_downloads_for_missing_maps(WRITE_TO_SHEET)
         print("Testing if all mapnames match filenames for downloads")
