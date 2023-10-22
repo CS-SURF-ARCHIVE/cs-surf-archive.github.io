@@ -25,17 +25,24 @@ def create_collapsible(data):
     for row in data[1:]:  # Skip the header row
         name = row[0]
         content = []
+        has_dl = False
 
         for index, item in enumerate(row[1:], start=1):
             if index == link_index and "drive.google.com" in item:
                 # Handle links for the specified index
                 link = f'<a href="{item}">{name}</a>'
                 content.append(f'<b>{data[0][index]}:</b><br />&emsp;{link}')
+                has_dl = True
+            
+            elif index == link_index and "drive.google.com" not in item:
+                has_dl = False
+
             elif index == img_index and "drive.google.com" in item:
                 # Handle images with missing or error alt text for the specified index
                 img_alt = f'{name} (img missing or error)'
                 img_link = f'<a href="{item}"><img src="{item}" alt="{img_alt}" width="100%" loading="lazy"></a>'
                 content.append(f'<b>{data[0][index]}:</b><br />&emsp;{img_link}')
+
             else:
                 # Handle regular content
                 content.append(f'<b>{data[0][index]}:</b><br />&emsp;{item}')
@@ -43,15 +50,12 @@ def create_collapsible(data):
         content_html = '<br />'.join(content)
         collapsible_html = f'<button type="button" class="collapsible">{name}</button>\n<div class="content"><p>{content_html}</p></div>'
 
-        if "drive.google.com" in content_html:
+        if has_dl:
             collapsible_list_dl.append(collapsible_html)
         else:
             collapsible_list_no_dl.append(collapsible_html)
 
     return collapsible_list_dl, collapsible_list_no_dl
-
-def create_imglink(mapname, image_link):
-    pass
 
 def split_map_by_game(collapsible_list_dl, collapsible_list_no_dl):
     collapsible_list_css_dl = []
