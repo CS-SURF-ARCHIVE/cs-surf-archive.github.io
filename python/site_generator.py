@@ -44,6 +44,7 @@ def create_collapsible(data):
             content.append([])
             name[map_num-1].append(data[map_num][0])
             for info in range(len(data[map_num])):
+               # print(data[map_num][info])
                 if "drive.google.com" in data[map_num][info]: # build a link if it finds HTTP in the string
                     linkurl = data[map_num][info]
                     linktext = str(name[map_num-1]).strip('[]\'')
