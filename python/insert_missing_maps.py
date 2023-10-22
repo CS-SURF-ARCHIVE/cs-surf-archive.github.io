@@ -7,7 +7,7 @@ import gtoken
 SPREADSHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig'
 
 # replace with your range
-RANGE_NAME = 'A1:G'
+RANGE_NAME = "'Surf maps'"
 
 # load the credentials from file
 credentials  = gtoken.get()
