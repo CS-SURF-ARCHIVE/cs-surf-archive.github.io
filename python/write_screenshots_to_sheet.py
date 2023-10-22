@@ -73,27 +73,31 @@ def get_mapnames_and_screenshots():
 def generate_rows_with_screenshot():
     mapnames_and_screenshots = get_mapnames_and_screenshots()
     maps_from_sheet = sheetdata.get_data()
+    missing_screenshot_image_url = "https://drive.google.com/uc?export=view&id=1E7QCI9E3WWMtfdxm4rsogNlnxYJf6G9Y"
     
-    indexed_maps = list(enumerate(maps_from_sheet, start=1)) # need indexed maps to correlate with row of spreadsheet when writing
-    generated_rows_screenshot = []
+    indexed_maps = list(enumerate(maps_from_sheet, start=1)) # need indexed maps to correlate with the row of the spreadsheet when writing
 
-
-    for index, map_item in indexed_maps:
+    for index, map_item in indexed_maps[1:]: #1: allows start from index 1
+        screenshot_found = False  # Flag to indicate if a matching screenshot is found
         for screenshot in mapnames_and_screenshots:
             if screenshot[0] in map_item[0]:
+                if SHEET_WRITE and map_item[7] != screenshot[1]:
+                    map_item[7] = screenshot[1]
+                    print("writing at index ", index, " -- ", map_item)
+                    sheetwriter.update_row(index, map_item)
+                screenshot_found = True
+                break
 
-                if SHEET_WRITE == True:
-                    if map_item[7] == screenshot[1]:
-                        print(map_item[0], "already exists has screenshot, not writing")
-                    else:
-                        map_item[7] = screenshot[1]
-                        print("writing at index ", index, " -- ", map_item)
-                        sheetwriter.update_row(index, map_item)
-                else:
-                    print("sheet_write is false but ", index, " -- ", map_item)
-                    print(index, map_item)
-                break 
-
+        if not screenshot_found:
+            try:
+                if SHEET_WRITE and map_item[7] != missing_screenshot_image_url:
+                    map_item[7] = missing_screenshot_image_url
+                    print("writing at index ", index, " -- ", map_item)
+                    sheetwriter.update_row(index, map_item)
+            except Exception as e:
+                print("failed on ", map_item, "with length ", len(map_item))
+                print(e)
+                
 if __name__ == "__main__":
     generate_rows_with_screenshot()
 
