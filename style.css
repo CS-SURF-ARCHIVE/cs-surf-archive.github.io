@@ -3,7 +3,7 @@
     color: white;
     cursor: pointer;
     padding: 7px;
-    width: 75%;
+    width: 90%;
     border: line-width=1px;
     border-style: solid;
     border-color:rgb(82, 82, 82);
@@ -12,6 +12,7 @@
     margin: 1px;
     font-size: 15px;
     padding-left: 2%;
+    padding-right 2%
   }
   
   .active, .collapsible:hover {
@@ -22,7 +23,7 @@
     padding: 1px;
     display: none;
     overflow: hidden;
-    width: 60%;
+    width: 90%;
     
     margin-left: 5%;
     background-color: #f1f1f1;
@@ -40,6 +41,15 @@
   h3 {
     color:black;
     padding-left: 4%;
+  }
+
+  img {
+    width: 100%;
+    padding-right: 4%;
+    box-sizing: border-box; /* Ensure padding is included within the width */
+    max-width: 100%; /* Prevent image from exceeding its original size */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra space below the image */
   }
   
   p {

@@ -2,7 +2,7 @@
 # and adds the dl link if it exists?
 # situation occurs when we have a map name and info in the sheet
 # but then add the download later
-# it will not be picked up and added unless done manually
+# it will not be picked up and added unless done
 
 import os
 import sheetdata
