@@ -81,10 +81,14 @@ def generate_rows_with_screenshot():
     for index, map_item in indexed_maps:
         for screenshot in mapnames_and_screenshots:
             if screenshot[0] in map_item[0]:
-                map_item[7] = screenshot[1]
+
                 if SHEET_WRITE == True:
-                    print("writing at index ", index, " -- ", map_item)
-                    sheetwriter.update_row(index, map_item)
+                    if map_item[7] == screenshot[1]:
+                        print(map_item[0], "already exists has screenshot, not writing")
+                    else:
+                        map_item[7] = screenshot[1]
+                        print("writing at index ", index, " -- ", map_item)
+                        sheetwriter.update_row(index, map_item)
                 else:
                     print("sheet_write is false but ", index, " -- ", map_item)
                     print(index, map_item)
