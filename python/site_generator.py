@@ -15,73 +15,108 @@ def main():
     css_maps_gen.build(css_dl, css_no_dl)
     other_maps_gen.build(other_dl, other_no_dl)
 
-
 def create_collapsible(data):
-    pre = "<button type=\"button\" class=\"collapsible\">"
-    name = []
-    bridge = "</button>\n<div class=\"content\">\n  <p>"
-    content = []
-    final = "</p>\n</div>"
-    br = " <br />"
-    tab = " &emsp; "
-    bo = "<b>"
-    bc = "</b>"
-
-    linkpre = "<a href=\""
-    linkurl = ""
-    linkmid = "\"> "
-    linktext = ""
-    linkclose = "</a>"
-    link = ""
-
-    imgpre = "<img src=\""
-    imgmid = "\" alt=\""
-    imgclose = "\" width=\"100%\" loading=\"lazy\">"
-
-
     collapsible_list_dl = []
     collapsible_list_no_dl = []
-    collapsed_content = []
 
-    mapname_index = 1
     link_index = 6
     img_index = 7
 
-    for map_num in range(len(data)):  #rewrite this link crap so it's not looking at the entire row for the link, but the specific index, that way i can build embed in too
-        name.append([])
-        if map_num != 0: # first index is always headers, so skip
-            content.append([])
-            name[map_num-1].append(data[map_num][0])
-            for info in range(len(data[map_num])):
-                if info == link_index:
-                    if "drive.google.com" in data[map_num][link_index]: # build a link if it finds HTTP in the string
-                        linkurl = data[map_num][link_index]
-                        linktext = str(name[map_num-1]).strip('[]\'')
-                        link = linkpre + linkurl + linkmid + linktext + linkclose
-                        #print(str(data[0][7])) #data[0] = header, data[1] = content
-                        data[map_num][link_index]=link
-                        print(data[map_num][link_index])
-                
-                if info == img_index:
-                    if "drive.google.com" in data[map_num][img_index]:
-                        imgurl = data[map_num][img_index]
-                        mapname = data[map_num][mapname_index]
-                        imgalt = mapname + " (img missing or error)"
-                        imglink = linkpre + imgurl + linkmid + "\n\t" + imgpre + imgurl + imgmid + imgalt + imgclose + "\n" + linkclose
+    for row in data[1:]:  # Skip the header row
+        name = row[0]
+        content = []
 
-                        data[map_num][img_index]=imglink
+        for index, item in enumerate(row[1:], start=1):
+            if index == link_index and "drive.google.com" in item:
+                # Handle links for the specified index
+                link = f'<a href="{item}">{name}</a>'
+                content.append(f'<b>{data[0][index]}:</b><br />&emsp;{link}')
+            elif index == img_index and "drive.google.com" in item:
+                # Handle images with missing or error alt text for the specified index
+                img_alt = f'{name} (img missing or error)'
+                img_link = f'<a href="{item}"><img src="{item}" alt="{img_alt}" width="100%" loading="lazy"></a>'
+                content.append(f'<b>{data[0][index]}:</b><br />&emsp;{img_link}')
+            else:
+                # Handle regular content
+                content.append(f'<b>{data[0][index]}:</b><br />&emsp;{item}')
 
-                content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + data[map_num][info] + br + "\n"))
-                    #print(content[map_num-1])
-                #print(content[map_num-1])
-    for content_num in range(len(content)): # a problem existst that both lists already contain generated html
-        collapsed_content.append("\n".join(content[content_num])) # join all the individual items into a single string
-        if "drive.google.com" in collapsed_content[content_num]:
-            collapsible_list_dl.append(pre+str(name[content_num]).strip('[]\'')+bridge+str(collapsed_content[content_num])+final)
+        content_html = '<br />'.join(content)
+        collapsible_html = f'<button type="button" class="collapsible">{name}</button>\n<div class="content"><p>{content_html}</p></div>'
+
+        if "drive.google.com" in content_html:
+            collapsible_list_dl.append(collapsible_html)
         else:
-            collapsible_list_no_dl.append(pre+str(name[content_num]).strip('[]\'')+bridge+str(collapsed_content[content_num])+final)
+            collapsible_list_no_dl.append(collapsible_html)
 
     return collapsible_list_dl, collapsible_list_no_dl
+
+
+# def create_collapsible(data):
+#     pre = "<button type=\"button\" class=\"collapsible\">"
+#     name = []
+#     bridge = "</button>\n<div class=\"content\">\n  <p>"
+#     content = []
+#     final = "</p>\n</div>"
+#     br = " <br />"
+#     tab = " &emsp; "
+#     bo = "<b>"
+#     bc = "</b>"
+
+#     linkpre = "<a href=\""
+#     linkurl = ""
+#     linkmid = "\"> "
+#     linktext = ""
+#     linkclose = "</a>"
+#     link = ""
+
+#     imgpre = "<img src=\""
+#     imgmid = "\" alt=\""
+#     imgclose = "\" width=\"100%\" loading=\"lazy\">"
+
+
+#     collapsible_list_dl = []
+#     collapsible_list_no_dl = []
+#     collapsed_content = []
+
+#     mapname_index = 1
+#     link_index = 6
+#     img_index = 7
+
+#     for map_num in range(len(data)):  #rewrite this link crap so it's not looking at the entire row for the link, but the specific index, that way i can build embed in too
+#         name.append([])
+#         if map_num != 0: # first index is always headers, so skip
+#             content.append([])
+#             name[map_num-1].append(data[map_num][0])
+#             for info in range(len(data[map_num])):
+#                 if info == link_index:
+#                     if "drive.google.com" in data[map_num][link_index]: # build a link if it finds HTTP in the string
+#                         linkurl = data[map_num][link_index]
+#                         linktext = str(name[map_num-1]).strip('[]\'')
+#                         link = linkpre + linkurl + linkmid + linktext + linkclose
+#                         #print(str(data[0][7])) #data[0] = header, data[1] = content
+#                         data[map_num][link_index]=link
+#                         print(data[map_num][link_index])
+                
+#                 if info == img_index:
+#                     if "drive.google.com" in data[map_num][img_index]:
+#                         imgurl = data[map_num][img_index]
+#                         mapname = data[map_num][mapname_index]
+#                         imgalt = mapname + " (img missing or error)"
+#                         imglink = linkpre + imgurl + linkmid + "\n\t" + imgpre + imgurl + imgmid + imgalt + imgclose + "\n" + linkclose
+
+#                         data[map_num][img_index]=imglink
+
+#                 content[map_num-1].append(bo + str(data[0][info] + bc + ":" + br + " \n" + tab + data[map_num][info] + br + "\n"))
+#                     #print(content[map_num-1])
+#                 #print(content[map_num-1])
+#     for content_num in range(len(content)): # a problem existst that both lists already contain generated html
+#         collapsed_content.append("\n".join(content[content_num])) # join all the individual items into a single string
+#         if "drive.google.com" in collapsed_content[content_num]:
+#             collapsible_list_dl.append(pre+str(name[content_num]).strip('[]\'')+bridge+str(collapsed_content[content_num])+final)
+#         else:
+#             collapsible_list_no_dl.append(pre+str(name[content_num]).strip('[]\'')+bridge+str(collapsed_content[content_num])+final)
+
+#     return collapsible_list_dl, collapsible_list_no_dl
 
 def create_imglink(mapname, image_link):
     pass
@@ -112,8 +147,6 @@ if __name__ == '__main__':
         test_screenshots_in_sheet.generate_rows_with_screenshot()
     main()
     if TESTS_ENABLED == True:
-        print("Writing links to all screenshots in drive to sheet")
-        test_screenshots_in_sheet.generate_rows_with_screenshot()
         print("Testing if all drive files have sheet entry")
         test_drive_matches_sheet.get_downloads_for_missing_maps(WRITE_TO_SHEET)
         print("Testing if all mapnames match filenames for downloads")
