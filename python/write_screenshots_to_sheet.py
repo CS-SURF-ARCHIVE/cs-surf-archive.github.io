@@ -13,7 +13,7 @@ import sheetwriter
 
 from googleapiclient.discovery import build
 
-SHEET_WRITE = True # if false, does not write to sheet, test only, used for local script test only
+SHEET_WRITE = True # if false, does not write to sheet, test only, used for local script test
 
 def get_drive_items():
     creds = gtoken.get()
@@ -61,7 +61,13 @@ def get_mapnames_and_screenshots():
 
     for screenshot in screenshots:
         screenshot_link = link_pre + screenshot['id']
-        mapname = screenshot['name'].replace(".png", "")
+
+        if ".png" in screenshot['name']:
+            mapname = screenshot['name'].replace(".png", "")
+        elif ".jpg" in screenshot['name']:
+            mapname = screenshot['name'].replace(".jpg", "")
+        elif ".jpeg" in screenshot['name']:
+            mapname = screenshot['name'].replace(".jpeg", "")
     
         mapnames_and_screenshots.append((mapname, screenshot_link))
          
