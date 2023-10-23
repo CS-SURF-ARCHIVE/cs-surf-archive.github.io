@@ -13,7 +13,7 @@ import sheetwriter
 
 from googleapiclient.discovery import build
 
-SHEET_WRITE = True # if false, does not write to sheet, test only
+SHEET_WRITE = True # if false, does not write to sheet, test only, used for local script test
 
 def get_drive_items():
     creds = gtoken.get()
@@ -61,11 +61,14 @@ def get_mapnames_and_screenshots():
 
     for screenshot in screenshots:
         screenshot_link = link_pre + screenshot['id']
-        #print(screenshot_link)
 
-        mapname = screenshot['name'].rstrip(".png")
-        #print(mapname)
-
+        if ".png" in screenshot['name']:
+            mapname = screenshot['name'].replace(".png", "")
+        elif ".jpg" in screenshot['name']:
+            mapname = screenshot['name'].replace(".jpg", "")
+        elif ".jpeg" in screenshot['name']:
+            mapname = screenshot['name'].replace(".jpeg", "")
+    
         mapnames_and_screenshots.append((mapname, screenshot_link))
          
     return mapnames_and_screenshots  
@@ -80,11 +83,14 @@ def generate_rows_with_screenshot():
     for index, map_item in indexed_maps[1:]: #1: allows start from index 1
         screenshot_found = False  # Flag to indicate if a matching screenshot is found
         for screenshot in mapnames_and_screenshots:
-            if screenshot[0] in map_item[0]:
+            if screenshot[0] == map_item[0]:
                 if SHEET_WRITE and map_item[7] != screenshot[1]:
                     map_item[7] = screenshot[1]
                     print("writing at index ", index, " -- ", map_item)
                     sheetwriter.update_row(index, map_item)
+                elif not SHEET_WRITE:
+                    map_item[7] = screenshot[1]
+                    print("sheet write off, but ", index, " -- ", map_item)
                 screenshot_found = True
                 break
 
@@ -94,6 +100,9 @@ def generate_rows_with_screenshot():
                     map_item[7] = missing_screenshot_image_url
                     print("writing at index ", index, " -- ", map_item)
                     sheetwriter.update_row(index, map_item)
+                elif not SHEET_WRITE:
+                    map_item[7] = missing_screenshot_image_url
+                    print("sheet write off, but ", index, " -- missing screenshot for ", map_item[0])
             except Exception as e:
                 print("failed on ", map_item, "with length ", len(map_item))
                 print(e)
