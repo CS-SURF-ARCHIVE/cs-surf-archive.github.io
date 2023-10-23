@@ -1,22 +1,42 @@
-
 <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
-        }
-      });
-    }
-    </script>
-    
-    </body>
-    </html>
-    
-    <!DOCTYPE html>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  var captionText = document.getElementById("caption");
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+<div class="modal">
+  <span class="close">&times;</span>
+  <img class="modalImage" id="img01" />
+  <div id="caption"></div>
+</div>
+<script>
+  var modalEle = document.querySelector(".modal");
+  var modalImage = document.querySelector(".modalImage");
+  var captionText = document.getElementById("caption");
+  
+  Array.from(document.querySelectorAll(".ImgThumbnail")).forEach(item => {
+    item.addEventListener("click", event => {
+    modalEle.style.display = "block";
+    modalImage.src = event.target.src;
+    captionText.innerHTML = event.target.alt;
+    });
+  });
+  
+  document.querySelector(".close").addEventListener("click", () => {
+  modalEle.style.display = "none";
+  });
+</script>
+</body>
+</html>

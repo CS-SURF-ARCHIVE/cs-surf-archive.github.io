@@ -39,8 +39,8 @@ def create_collapsible(data):
 
             elif index == img_index and "drive.google.com" in item:
                 # Handle images with missing or error alt text for the specified index
-                img_alt = f'{name} (img missing or error)'
-                img_link = f'<a href="{item}"><img src="{item}" alt="{img_alt}" width="100%" loading="lazy"></a>'
+                img_alt = f'{name}'
+                img_link = f'<img src="{item}" alt="{img_alt}" class="ImgThumbnail" loading="lazy">'
                 content.append(f'<b>{data[0][index]}:</b><br />&emsp;{img_link}')
 
             else:
