@@ -80,12 +80,15 @@ def generate_rows_with_screenshot():
     
     indexed_maps = list(enumerate(maps_from_sheet, start=1)) # need indexed maps to correlate with the row of the spreadsheet when writing
 
+    write_num = 0
+
     for index, map_item in indexed_maps[1:]: #1: allows start from index 1
         screenshot_found = False  # Flag to indicate if a matching screenshot is found
         for screenshot in mapnames_and_screenshots:
             if screenshot[0] == map_item[0]:
                 if SHEET_WRITE and map_item[7] != screenshot[1]:
                     map_item[7] = screenshot[1]
+                    write_num += 1
                     print("writing at index ", index, " -- ", map_item)
                     sheetwriter.update_row(index, map_item)
                 elif not SHEET_WRITE:
@@ -106,6 +109,8 @@ def generate_rows_with_screenshot():
             except Exception as e:
                 print("failed on ", map_item, "with length ", len(map_item))
                 print(e)
+        
+    print("total rows written:", write_num)
                 
 if __name__ == "__main__":
     generate_rows_with_screenshot()
