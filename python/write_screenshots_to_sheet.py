@@ -85,7 +85,7 @@ def generate_rows_with_screenshot():
     for index, map_item in indexed_maps[1:]: #1: allows start from index 1
         screenshot_found = False  # Flag to indicate if a matching screenshot is found
         for screenshot in mapnames_and_screenshots: # maybe add a check to see if there's 7 items, if the screenshot cell is null it will throw an error
-            if screenshot[0] == map_item[0]:
+            if screenshot[0].lower() == map_item[0].lower():
                 if SHEET_WRITE and map_item[7] != screenshot[1]:
                     map_item[7] = screenshot[1]
                     write_num += 1
