@@ -19,22 +19,28 @@ def create_collapsible(data):
     collapsible_list_dl = []
     collapsible_list_no_dl = []
 
-    name_index = 0
+    map_name_index = 0
     link_index = 6
     img_index = 7
 
     for row in data[1:]:  # Skip the header row
-        map_name = row[0]
         content = []
         has_dl = False
 
-        for index, item in enumerate(row[0:], start=0):
-            if index == name_index:
-                content.append(f'<b>shareable site link:</b><br />&emsp;<a href="#{item}">{item}</a>')
+        # this could be done by setting variables to each index without a second for loop and the if statements
+        # but this way feels a little more readable to me
+        
+        for index, item in enumerate(row[0:], start=0): 
+            column_header = data[0][index]
+
+            if index == map_name_index:
+                map_name = item
+
             elif index == link_index and "drive.google.com" in item:
                 # Handle links for the specified index
-                link = f'<a href="{item}">{map_name}</a>'
-                content.append(f'<b>{data[0][index]}:</b><br />&emsp;{link}')
+                drive_link_from_sheet = item
+                site_link = f'<a href="{drive_link_from_sheet}">{map_name}.zip</a>' # don't feel like calling drive api every time to get file type.  it's always zip for
+                content.append(f'<b>{column_header}:</b><br />&emsp;{site_link}') 
                 has_dl = True
             
             elif index == link_index and "drive.google.com" not in item:
@@ -45,10 +51,12 @@ def create_collapsible(data):
                 img_alt = f'{map_name}'
                 img_link = f'<img src="{item}" alt="{img_alt}" class="ImgThumbnail" loading="lazy">'
                 content.append(f'<b>screenshot:</b><br />&emsp;{img_link}')
+                site_link = (f'<b>site link:</b><br />&emsp;<a href="#{map_name}">{map_name}</a>')
+                content.append(site_link) # screnshot is last thing processed, and we want the site link after that.
 
             else:
                 # Handle regular content
-                content.append(f'<b>{data[0][index]}:</b><br />&emsp;{item}')
+                content.append(f'<b>{column_header}:</b><br />&emsp;{item}') # noted above, data[0] = column header name
 
         content_html = '<br />'.join(content)
         collapsible_html = f'\n<div id="{map_name}">\n\t<button type="button" class="collapsible">{map_name}</button>\n\t<div id="{map_name}" class="content"><p>{content_html}</p></div>\n</div>'
