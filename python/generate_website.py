@@ -1,6 +1,6 @@
-import sheetdata as sheetdata
-import css_maps_gen
-import other_maps_gen
+import get_sheet_data
+import generate_css_html
+import generate_other_html
 import test_mapname_filename_match
 import test_drive_matches_sheet
 import write_screenshots_to_sheet
@@ -9,11 +9,11 @@ TESTS_ENABLED = False
 WRITE_TO_SHEET = False
 
 def main():
-    data = sheetdata.get_data()
+    data = get_sheet_data.get_data()
     collapsible_with_dl, collapsible_no_dl = create_collapsible(data)
     css_dl, css_no_dl, other_dl, other_no_dl, = split_map_by_game(collapsible_with_dl, collapsible_no_dl)
-    css_maps_gen.build(css_dl, css_no_dl)
-    other_maps_gen.build(other_dl, other_no_dl)
+    generate_css_html.build(css_dl, css_no_dl)
+    generate_other_html.build(other_dl, other_no_dl)
 
 def create_collapsible(data):
     collapsible_list_dl = []

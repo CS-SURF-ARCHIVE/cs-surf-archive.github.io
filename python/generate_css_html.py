@@ -17,11 +17,13 @@ def build_table_css(collapsible_list_css_dl, collapsible_list_css_no_dl):
     return tablecontent
 
 def index_html_boilerplate():
-    preboilersrc = "html_boilerplate/source/source_pre.html"
-    postboilersrc = "html_boilerplate/source/source_post.html"
+    preboilersrc = "html_boilerplate/pre.html"
+    postboilersrc = "html_boilerplate/post.html"
+    css_end_boiler = '<h3>Source Maps&emsp;&emsp;<a href=\"other.html">1.6 or unknown maps</a></h3>'
 
     with open(preboilersrc, 'r') as file:
         preboiler = file.read()
+        preboiler = preboiler + css_end_boiler
 
     with open(postboilersrc, 'r') as file:
         postboiler = file.read()

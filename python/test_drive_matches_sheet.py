@@ -5,7 +5,7 @@
 # it will not be picked up and added unless done
 
 import os
-import sheetdata
+import get_sheet_data
 import gtoken
 import insert_missing_maps
 
@@ -49,7 +49,7 @@ def get_drive_items():
 
 def compare_sheet_and_drive():
     drive_items = get_drive_items()
-    sheet_items = sheetdata.get_data()
+    sheet_items = get_sheet_data.get_data()
 
     drive_item_dict = {"mapname": [], "maplink": []}
     sheet_item_names = []
