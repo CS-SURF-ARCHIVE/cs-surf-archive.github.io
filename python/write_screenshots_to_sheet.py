@@ -7,7 +7,7 @@
 # also note that if i want to do the mapname rewrite on the sheet, to do it with this method
 
 import os
-import sheetdata
+import get_sheet_data
 import gtoken
 import sheetwriter
 
@@ -75,7 +75,7 @@ def get_mapnames_and_screenshots():
 
 def generate_rows_with_screenshot():
     mapnames_and_screenshots = get_mapnames_and_screenshots()
-    maps_from_sheet = sheetdata.get_data()
+    maps_from_sheet = get_sheet_data.get_data()
     missing_screenshot_image_url = "https://drive.google.com/uc?export=view&id=1vS_uStVC1n2-63uDx-h5r8ZaSPbohU5W"
     
     indexed_maps = list(enumerate(maps_from_sheet, start=1)) # need indexed maps to correlate with the row of the spreadsheet when writing

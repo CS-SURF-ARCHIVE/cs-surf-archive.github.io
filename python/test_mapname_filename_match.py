@@ -5,7 +5,7 @@
 # with the google drive link each time, like I do for test_screenshots_in_sheet.py
 
 import requests
-import sheetdata
+import get_sheet_data
 import re
 import os
 import gtoken
@@ -13,7 +13,7 @@ import gtoken
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-testdata = sheetdata.get_data()
+testdata = get_sheet_data.get_data()
 
 creds = gtoken.get()
 

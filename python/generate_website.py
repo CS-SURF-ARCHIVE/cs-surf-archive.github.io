@@ -1,6 +1,7 @@
-import sheetdata as sheetdata
-import css_maps_gen
-import other_maps_gen
+import get_sheet_data
+import generate_css_html
+import generate_other_html
+import generate_overflow_html
 import test_mapname_filename_match
 import test_drive_matches_sheet
 import write_screenshots_to_sheet
@@ -9,23 +10,28 @@ TESTS_ENABLED = False
 WRITE_TO_SHEET = False
 
 def main():
-    data = sheetdata.get_data()
-    collapsible_with_dl, collapsible_no_dl = create_collapsible(data)
-    css_dl, css_no_dl, other_dl, other_no_dl, = split_map_by_game(collapsible_with_dl, collapsible_no_dl)
-    css_maps_gen.build(css_dl, css_no_dl)
-    other_maps_gen.build(other_dl, other_no_dl)
+    data = get_sheet_data.get_data()
+    collapsible_with_dl, collapsible_no_dl, overflow = create_collapsible(data)
+    css_dl, css_no_dl, other_dl, other_no_dl = split_map_by_category(collapsible_with_dl, collapsible_no_dl)
+    #print(overflow)
+    generate_css_html.build(css_dl, css_no_dl)
+    generate_other_html.build(other_dl, other_no_dl)
+    generate_overflow_html.build(overflow)
 
 def create_collapsible(data):
     collapsible_list_dl = []
     collapsible_list_no_dl = []
+    overflow_list = []
 
     map_name_index = 0
     link_index = 6
     img_index = 7
+    overflow_index = 8
 
     for row in data[1:]:  # Skip the header row
         content = []
         has_dl = False
+        overflow = False
 
         # this could be done by setting variables to each index without a second for loop and the if statements
         # but this way feels a little more readable to me
@@ -36,14 +42,17 @@ def create_collapsible(data):
             if index == map_name_index:
                 map_name = item
 
-            elif index == link_index and "drive.google.com" in item:
+            elif index == overflow_index and item is not None:
+                overflow = True
+
+            elif index == link_index and "drive.google.com" in item and overflow == False:
                 # Handle links for the specified index
                 drive_link_from_sheet = item
                 site_link = f'<a href="{drive_link_from_sheet}">{map_name}.zip</a>' # don't feel like calling drive api every time to get file type.  it's always zip for
                 content.append(f'<b>{column_header}:</b><br />&emsp;{site_link}') 
                 has_dl = True
             
-            elif index == link_index and "drive.google.com" not in item:
+            elif index == link_index and "drive.google.com" not in item and overflow == False:
                 has_dl = False
 
             elif index == img_index and "drive.google.com" in item:
@@ -53,6 +62,9 @@ def create_collapsible(data):
                 content.append(f'<b>screenshot:</b><br />&emsp;{img_link}')
                 site_link = (f'<b>site link:</b><br />&emsp;<a href="#{map_name}">{map_name}</a>')
                 content.append(site_link) # screnshot is last thing processed, and we want the site link after that.
+
+            elif index == overflow_index and item is not None:
+                pass
 
             else:
                 # Handle regular content
@@ -69,9 +81,12 @@ def create_collapsible(data):
         else:
             collapsible_list_no_dl.append(collapsible_html)
 
-    return collapsible_list_dl, collapsible_list_no_dl
+        if overflow:
+            overflow_list.append(collapsible_html)
 
-def split_map_by_game(collapsible_list_dl, collapsible_list_no_dl):
+    return collapsible_list_dl, collapsible_list_no_dl, overflow_list
+
+def split_map_by_category(collapsible_list_dl, collapsible_list_no_dl):
     collapsible_list_css_dl = []
     collapsible_list_css_no_dl = []
     collapsible_list_1p6_dl = []
