@@ -18,13 +18,12 @@ def build_table_other(collapsible_list_other_dl, collapsible_list_other_no_dl):
 
 def other_html_boilerplate():
     preboilersrc = "html_boilerplate/pre.html"
+    print(preboilersrc)
     postboilersrc = "html_boilerplate/post.html"
-    other_end_boiler = '<h3><a href=\"index.html\">Source Maps</a>&emsp;&emsp;1.6 or unknown maps</h3>'
-
+    other_end_boiler = '<h3><a href=\"index.html\">Source Maps</a>&emsp;&emsp;CS 1.6 or Unknown Maps&emsp;&emsp;<a href=\"overflow.html\">Overflow Maps</a></h3>'
 
     with open(preboilersrc, 'r') as file:
-        preboiler = file.read()
-        preboiler = file.rad() + other_end_boiler
+        preboiler = file.read() + other_end_boiler
 
     with open(postboilersrc, 'r') as file:
         postboiler = file.read()
