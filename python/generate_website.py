@@ -8,8 +8,8 @@ import test_mapname_filename_match
 import test_drive_matches_sheet
 import write_screenshots_to_sheet
 
-TESTS_ENABLED = False
-WRITE_TO_SHEET = False
+TESTS_ENABLED = True
+WRITE_TO_SHEET = True
 
 def main():
     data = get_sheet_data.get_data()

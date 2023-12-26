@@ -33,11 +33,6 @@ def get_data():
 
     except HttpError as err:
         print(err)
-
-    # i = 0
-    # for value in values:
-    #     i += 1
-    #     (print(i, value))
         
     return values
 
