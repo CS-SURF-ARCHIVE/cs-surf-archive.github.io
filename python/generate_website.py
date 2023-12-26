@@ -77,12 +77,13 @@ def create_collapsible(data):
         # JS found in collapsible_handler.js utilizes the nested divs with the same name
         # if a jump link is followed to a matching map name, the JS expands that collapsible.
 
-        if has_dl:
+        if has_dl and not overflow:
             collapsible_list_dl.append(collapsible_html)
-        else:
+
+        elif not has_dl and not overflow:
             collapsible_list_no_dl.append(collapsible_html)
 
-        if overflow:
+        elif overflow:
             overflow_list.append(collapsible_html)
 
     return collapsible_list_dl, collapsible_list_no_dl, overflow_list
