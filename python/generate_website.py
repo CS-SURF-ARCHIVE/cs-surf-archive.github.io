@@ -2,6 +2,8 @@ import get_sheet_data
 import generate_css_html
 import generate_other_html
 import generate_overflow_html
+import platform
+import subprocess
 import test_mapname_filename_match
 import test_drive_matches_sheet
 import write_screenshots_to_sheet
@@ -13,7 +15,6 @@ def main():
     data = get_sheet_data.get_data()
     collapsible_with_dl, collapsible_no_dl, overflow = create_collapsible(data)
     css_dl, css_no_dl, other_dl, other_no_dl = split_map_by_category(collapsible_with_dl, collapsible_no_dl)
-    #print(overflow)
     generate_css_html.build(css_dl, css_no_dl)
     generate_other_html.build(other_dl, other_no_dl)
     generate_overflow_html.build(overflow)
@@ -106,6 +107,23 @@ def split_map_by_category(collapsible_list_dl, collapsible_list_no_dl):
     
     return collapsible_list_css_dl, collapsible_list_css_no_dl, collapsible_list_1p6_dl, collapsible_list_1p6_no_dl
 
+def tidy_html():
+    # check if being run on linux, if so, is tidy installed? if so, run html tidy script
+    if platform.system() == "Linux":
+        try:
+            subprocess.run(["tidy", "--version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+            tidy_script_path = "bash/tidy.sh"
+            try:
+                subprocess.run(["bash", tidy_script_path], check=True)
+                print("HTML tidy script ran from", tidy_script_path)
+            except subprocess.CalledProcessError as e:
+                print(f"Error executing HTML tidy script: {e}")
+
+        except subprocess.CalledProcessError:
+            print("Tidy is not installed. Please install it before running the HTML tidy script.")
+    else:
+        print("This script is intended to run on Linux.")
+
 if __name__ == '__main__':
     if WRITE_TO_SHEET == True:
         print("Writing links to all screenshots in drive to sheet")
@@ -119,3 +137,5 @@ if __name__ == '__main__':
         print("all done with tests!!")
     else:
         print("no tests, all done")
+    print("tidying html")
+    tidy_html()
