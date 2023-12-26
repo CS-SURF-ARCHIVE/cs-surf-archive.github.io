@@ -16,7 +16,7 @@ def overflow_html_boilerplate():
     preboilersrc = "html_boilerplate/pre.html"
     postboilersrc = "html_boilerplate/post.html"
     overflow_end_boiler = '<h3><a href=\"index.html\">Source Maps</a>&emsp;&emsp;<a href=\"other.html\">CS 1.6 or Unknown Maps</a>&emsp;&emsp;Overflow Maps</h3>'
-
+    
     with open(preboilersrc, 'r') as file:
         preboiler = file.read() + overflow_end_boiler
 
