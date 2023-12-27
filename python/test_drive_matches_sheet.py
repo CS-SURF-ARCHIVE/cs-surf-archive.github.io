@@ -7,7 +7,7 @@
 import os
 import get_sheet_data
 import gtoken
-import insert_missing_maps
+import write_missing_maps_to_sheet
 
 from googleapiclient.discovery import build
 
@@ -91,7 +91,7 @@ def get_downloads_for_missing_maps(sheet_write):
     
     if sheet_write == True:
         print("write = true, writing")
-        insert_missing_maps.values(missing_map_dict)
+        write_missing_maps_to_sheet.values(missing_map_dict)
     else:
         print("write is false")
 
