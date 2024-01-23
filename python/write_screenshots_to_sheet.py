@@ -84,7 +84,15 @@ def generate_rows_with_screenshot():
 
     for index, map_item in indexed_maps[1:]: #1: allows start from index 1
         screenshot_found = False  # Flag to indicate if a matching screenshot is found
-        for screenshot in mapnames_and_screenshots: # maybe add a check to see if there's 7 items, if the screenshot cell is null it will throw an error
+        
+        
+        while len(map_item) < 8: # 8 because although the index starts at 0, len counts starting with 1
+            map_item.append('') # from a previous issue - if map_item was less than len 7, would throw:
+                # if SHEET_WRITE and map_item[7] != screenshot[1]:
+                #       ~~~~~~~~^^^
+                # IndexError: list index out of range
+            
+        for screenshot in mapnames_and_screenshots: 
             if screenshot[0].lower() == map_item[0].lower():
                 if SHEET_WRITE and map_item[7] != screenshot[1]:
                     map_item[7] = screenshot[1]
