@@ -7,9 +7,10 @@ import subprocess
 import test_mapname_filename_match
 import test_drive_matches_sheet
 import write_screenshots_to_sheet
+import re
 
-TESTS_ENABLED = True
-WRITE_TO_SHEET = True
+TESTS_ENABLED = False
+WRITE_TO_SHEET = False
 
 def main():
     data = get_sheet_data.get_data()
@@ -57,12 +58,17 @@ def create_collapsible(data):
                 has_dl = False
 
             elif index == img_index and "drive.google.com" in item:
+                image_url = item # just for readability
+                lienuc_image_url = build_lien_uc(image_url)
+
                 # Handle images with missing or error alt text for the specified index
                 img_alt = f'{map_name}'
-                img_link = f'<img src="{item}" alt="{img_alt}" class="ImgThumbnail" loading="lazy">'
+                img_link = f'<img {lienuc_image_url} alt="{img_alt}" class="ImgThumbnail" loading="lazy">'
                 content.append(f'<b>screenshot:</b><br />&emsp;{img_link}')
+
+                # site link always comes last, which is after screenshot
                 site_link = (f'<b>site link:</b><br />&emsp;<a href="#{map_name}">{map_name}</a>')
-                content.append(site_link) # screnshot is last thing processed, and we want the site link after that.
+                content.append(site_link)
 
             elif index == overflow_index and item is not None:
                 pass
@@ -122,8 +128,14 @@ def tidy_html():
 
         except subprocess.CalledProcessError:
             print("Tidy is not installed. Please install it before running the HTML tidy script.")
-    else:
-        print("This script is intended to run on Linux.")
+
+def build_lien_uc(item):
+    # https://lienuc.com/ - Jan 2024 google broke how embeds worked
+    # so, strip IDs from full URL (item) and run through lienuc
+    regex_for_id = re.compile(r'id=(.+)') # regex for everything after id= in the google url
+    image_id = regex_for_id.search(item).group(1)
+    lienuc_image_url = f'crossorigin="anonymous" src="http://drive.lienuc.com/uc?id={image_id}"'
+    return lienuc_image_url    
 
 if __name__ == '__main__':
     if WRITE_TO_SHEET == True:
