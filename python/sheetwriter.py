@@ -19,7 +19,7 @@ SPREADSHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig'
 # SPREADSHEET_ID = '1EfuWG4_813Y2nCF0_7grl6b1colkZzTgpSyL8xWHkz0'
 
 def update_row(row_index, row_data):
-    update_range = "A" + str(row_index) + ":H" + str(row_index) # construct the range based on index
+    update_range = "A" + str(row_index) + ":I" + str(row_index) # construct the range based on index
     creds = gtoken.get()
 
     try:
