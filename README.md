@@ -36,4 +36,4 @@ cs-surf-archive.github.io
 - gtoken.py gets the credentials for Google API.  Delete token.json locally for it to refresh
 - the 3 generate_*_html.py files are all the same except for 3 lines lol.  if I have to mess with the pages again I'll come up with a more graceful solution.
 - Instead of getting sheet data multiple times, then rewriting per cell, a good rewrite would be to modify it all locally then rewrite per sheet.
-- After adding a file to the drive, sheet has to be regenerated multiple times.  Don't have time to fix yet.
+- After adding a file to the drive, sheet has to be regenerated multiple times.  Don't have time to fix.
