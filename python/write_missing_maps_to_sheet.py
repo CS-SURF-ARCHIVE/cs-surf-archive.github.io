@@ -4,7 +4,7 @@ from googleapiclient.errors import HttpError
 import gtoken
 
 # replace with your sheet ID
-SPREADSHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig'
+SHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig'
 
 # replace with your range
 RANGE_NAME = "'Surf maps'"
@@ -26,7 +26,7 @@ def values(missing_map_dict):
         'values': insert_values
     }
     request = service.spreadsheets().values().append(
-        spreadsheetId=SPREADSHEET_ID,
+        spreadsheetId=SHEET_ID,
         range=RANGE_NAME,
         valueInputOption='USER_ENTERED',
         body=update_body,
@@ -39,7 +39,7 @@ def values(missing_map_dict):
     try:
         response = request.execute()
         num_cells_updated = response.get('updates', {}).get('updatedCells', 0)
-        print(f'{num_cells_updated} cells appended to {RANGE_NAME} in {SPREADSHEET_ID}.')
+        print(f'{num_cells_updated} cells appended to {RANGE_NAME} in {SHEET_ID}.')
 
         # Use row 1 as header and sort column A alphabetically
         sort_range = f'{RANGE_NAME}A1:A'
@@ -60,7 +60,7 @@ def values(missing_map_dict):
                 ]
             }
         }
-        sort_request = service.spreadsheets().batchUpdate(spreadsheetId=SPREADSHEET_ID, body={
+        sort_request = service.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={
             "requests": [
                 {
                     "sortRange": sort_request_body["sortRange"]

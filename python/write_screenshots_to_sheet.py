@@ -9,7 +9,7 @@
 import os
 import get_sheet_data
 import gtoken
-import sheetwriter
+import sheet_writer
 
 from googleapiclient.discovery import build
 
@@ -98,7 +98,7 @@ def generate_rows_with_screenshot():
                     map_item[7] = screenshot[1]
                     write_num += 1
                     print("writing at index ", index, " -- ", map_item)
-                    sheetwriter.update_row(index, map_item)
+                    sheet_writer.update_row(index, map_item)
                 elif not SHEET_WRITE:
                     map_item[7] = screenshot[1]
                     print("sheet write off, but ", index, " -- ", map_item)
@@ -110,7 +110,7 @@ def generate_rows_with_screenshot():
                 if SHEET_WRITE and map_item[7] != missing_screenshot_image_url:
                     map_item[7] = missing_screenshot_image_url
                     print("writing at index ", index, " -- ", map_item)
-                    sheetwriter.update_row(index, map_item)
+                    sheet_writer.update_row(index, map_item)
                 elif not SHEET_WRITE:
                     map_item[7] = missing_screenshot_image_url
                     print("sheet write off, but ", index, " -- missing screenshot for ", map_item[0])
