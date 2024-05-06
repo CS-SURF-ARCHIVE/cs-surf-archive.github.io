@@ -4,16 +4,17 @@
 # a better thing to do would be to just write the cells
 # with the google drive link each time, like I do for test_screenshots_in_sheet.py
 
+import config
 import requests
-import get_sheet_data
+import json_as_list
 import re
-import os
 import gtoken
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-testdata = get_sheet_data.get_data()
+SHEET_DATA_FILE_NAME = config.SHEET_DATA_FILE_NAME
+testdata = json_as_list.load_as_list(config.SHEET_DATA_FILE_NAME)
 
 creds = gtoken.get()
 

@@ -4,31 +4,30 @@
 # but then add the download later
 # it will not be picked up and added unless done
 
-import os
-import get_sheet_data
+import config
+import json_as_list
 import gtoken
 import write_missing_maps_to_sheet
 
+from python.json_as_list import load_as_list
 from googleapiclient.discovery import build
 
 SHEET_WRITE = True # if false, does not write to sheet, test only
+DRIVE_FOLDER_ID = config.DRIVE_DRIVE_FOLDER_ID
+SHEET_DATA_FILE_NAME = config.SHEET_DATA_FILE_NAME
 
 def get_drive_items():
     creds = gtoken.get()
     page_size = 1000
     drive_service = build('drive', 'v3', credentials=creds)
-    folder_id = '1BwsG6pIsRFiCGGG7ppiLSJ0NbLv7_Xv4'
-    query = f"'{folder_id}' in parents and trashed = false"
+    query = f"'{DRIVE_FOLDER_ID}' in parents and trashed = false"
     page_token = None
-    count = 0
 
     drive_items = []
 
     while True:
-        # Call the Files:list method to retrieve a page of files and folders in the specified folder
         results = drive_service.files().list(q=query, fields="nextPageToken, files(id, name, mimeType)", pageSize=page_size, pageToken=page_token).execute()
 
-        # Print the list of files and folders in the current page
         items = results.get('files', [])
         if not items:
             print('No files or folders found.')
@@ -49,7 +48,7 @@ def get_drive_items():
 
 def compare_sheet_and_drive():
     drive_items = get_drive_items()
-    sheet_items = get_sheet_data.get_data()
+    sheet_items = json_as_list.load_file_data(SHEET_DATA_FILE_NAME)
 
     drive_item_dict = {"mapname": [], "maplink": []}
     sheet_item_names = []

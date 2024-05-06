@@ -25,6 +25,7 @@ def create_collapsible(data):
     collapsible_list_no_dl = []
     overflow_list = []
 
+    # i dont really like this, maybe a better way in the future?
     map_name_index = 0
     link_index = 6
     img_index = 7
