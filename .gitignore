@@ -1,6 +1,7 @@
 
 __pycache__/*
-*.json
+credentials.json
+token.json
 docs
 raremaps.py
 quickstart.py

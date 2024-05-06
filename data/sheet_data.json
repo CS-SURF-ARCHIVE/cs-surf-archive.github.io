@@ -1,0 +1,4103 @@
+[
+    [
+        "name",
+        "author",
+        "release date",
+        "type",
+        "game",
+        "notes",
+        "download link",
+        "test full",
+        "overflow"
+    ],
+    [
+        "1way_surf",
+        "Cepo",
+        "2005",
+        "Slide",
+        "CSS",
+        "Early surf",
+        "https://drive.google.com/file/d/1jxi1VKLA5MEzNWYv0VdYUZ1du44cRkyy/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "sliding_dust07",
+        "Cepo",
+        "2006",
+        "Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/175fpkFGJVElsCvMlcY1n22sDxZzuWjIP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "superdustmountain",
+        "Dynam!c",
+        "2005",
+        "Experimental",
+        "CSS",
+        "Open, freeroam surf map",
+        "https://drive.google.com/file/d/15Yq8PZ_OhT9dhz7sgFh-UqDe4Oo9gPql/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_10_10_06",
+        "Matrix Hetman",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Qj0Fy_JGwhnfwYARJTnzAwsnlKiSpgpn/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_10x_final",
+        "Wof-",
+        "2005",
+        "Arena",
+        "CSS",
+        "Had multiple map remakes across different games",
+        "https://drive.google.com/file/d/15ngi-PSTF94EwOWngSUhega05VjOjXxo/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_1337_xxl",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "Literally just surf_leet_xl_beta7z",
+        "https://drive.google.com/file/d/1Ri7dA9cK29bw1JMxR6dOPRSV8KjxJdvZ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_2010_hitech_v3beta",
+        "Darth Cat, *(ReX)* & MooX",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1K2IkWMt83W5IKX34nL396nZNfwf1DI8y/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_2big",
+        "BM",
+        "2006",
+        "Staged",
+        "CSS",
+        "Mapper name unclear",
+        "https://drive.google.com/file/d/16Dp1xzQv-jk0pTmfybzPCL8k7xpOXCZm/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_2heaven_b1",
+        "ArchAngel",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1qhT-J9d5vJKJ8jKunjangoRMwTMwm1PH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_3story_v3",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_4rooms_v1",
+        "Choggi",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1lRgnb6jtxMSoFXpq9UbJzIXYo0iUEdTV/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_4rooms_v2",
+        "Choggi",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Qhe5X61K-zIUR4ca5XpCKL4ODW0K3uah/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_4rooms_v3",
+        "Choggi",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1b0bHZ0FGWky9Cwx7220YdQc-ml4y_vlM/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aaaa",
+        "Philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "Quite good actually",
+        "https://drive.google.com/file/d/1fDLXGzLnICWlip1MKVapNF7D_YzwbXR9/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aia",
+        "Unknown",
+        "2005",
+        "Staged",
+        "CSS",
+        "Brightest shit known to man",
+        "https://drive.google.com/file/d/1Lfwn1yWbi9BjePoJMsHEoc83OP1xDv0d/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aim_akcolt",
+        "Lagged & Ace High",
+        "2005",
+        "Arena",
+        "CSS",
+        "Multiple remakes on different games, barely a \"surf\" map",
+        "https://drive.google.com/file/d/1eHCdMJfYhs3RRZoowvJ2AYZR7vJwhO4m/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_air100",
+        "Gradd",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/10qGRwAwaJR5DJMunA9cMic6inFaMGbFI/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aircontrol_b1",
+        "Snoopsh",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1iWroXBdue3V2LRT1MK_H_YHUNC1ieXPQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aircontrol_v2",
+        "Snoopsh",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1-vythRaT2WDge9xf_uhlnr142Ka9CcNL/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aircontrol_v3",
+        "Snoopsh",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1S2akGUf9Vj7EognIa06HtkjnCE4b5iYG/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_anarchy_v1",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_arc_v7.2",
+        "Unknown",
+        "2005",
+        "Arena + Staged",
+        "CSS",
+        "Most likely made by Crakeur",
+        "https://drive.google.com/file/d/1Pol27lZaneCEohJJXJsjDnGLEjzAK-C4/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_arena_b2",
+        "Simplysped",
+        "2005",
+        "Arena",
+        "CSS",
+        "Lame map, only 2 ramps, was a 1v1 map before",
+        "https://drive.google.com/file/d/1pujwbok25YTgofkuJHZVG7E_q5nxhc80/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_around_b1",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1MUdrXTApssR-IubbyEoftq3wR6TkPbr7/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ayoforyayo",
+        "Yayo",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1jtXr9dQdMcMJcbQo2G1hY_xD7Ex-Vv_G/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_aztec",
+        "Mariowned and Raz",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1aWgrpgqgKJdxwzCVPSSf5iiQVeLUnuIr/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_barnyard",
+        "Wallabies",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1ePhENocK2jgKJ5P0D7eebQsRHqsBduul/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bbbb_v1",
+        "|SURFOIDS|F3r3T",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1SS6SFGd3PB3ojmecHfUf40sbikAAaJAT/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bbq",
+        "BigBangQuint ",
+        "2005",
+        "Arena",
+        "CSS",
+        "Missing texture heaven",
+        "https://drive.google.com/file/d/181xHXj-phlHRPsJyMTWPOS6piZ2WTxme/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_beginning",
+        "Unknown",
+        "2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1wXah-r_t5TNZ7Xk3RfneUPK8EzvJ-HuM/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bestriver",
+        "{ESW} Ginger",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1PP24YI0JG-MKMzwAa-MJFtS3X2rHTznN/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bigramp_v1",
+        "Gai is PISSED",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1evF4PAcSgrRW9Aup3UlfopykrketFpXf/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bigramp_v2a",
+        "Gai is PISSED",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1kEHDNdTYU6jSObUnOMsgp2-bq3wjK9m9/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_blaqueness",
+        "Unknown",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1dxdZPsBYRtpS1AdoqZN7FUey-ecmvqhF/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_blaze",
+        "EagleStrike",
+        "2005",
+        "Staged",
+        "CSS",
+        "Was only a test map",
+        "https://drive.google.com/file/d/1yg3dJqnKglINGu5oHBqdR56VNHmWvExC/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bleh",
+        "Philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1dcdAaZTNkrSjVhF9u145JRplSOmsA-Ar/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_blox",
+        "BigBangQuint ",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1ynabPkNV38RtHXFM67n4DfA1YzgMdW4W/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_board_v2",
+        "|DCD| Fitzel",
+        "2007",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/11xPR2MnwBdJdQTNKVUsERPjVY55xZLFq/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_brick",
+        "Unknown",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/18mXwGfPEh0YjllyNGNKtBgJVRXtXHRbj/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_bt_v3",
+        "Unknown",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Ed6idqTWvJads3wUEkTLpZBQZ7v3L0Kk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_burn-in_hell",
+        "Crunchy",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1rSkVs2dwsUabiQMpolGR36_BGwcSvXZV/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_c4_hg",
+        "Mtx",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Thpfp_9QJL4kde6TqR5-VeOOJkXu6ije/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_Cannons_V1",
+        "Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1uEOE796hHw-OOG0-KAVosj7AtVSuI2Lf/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_car",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "I dont really understand what type this map is",
+        "https://drive.google.com/file/d/15YyniZGg7u31k48r5DY8gcqOyzi86KoO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_Carnival_v1",
+        "Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1rnlDDYDseAR-8ZMbEGwSOxrmNEqRZRcS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_cathedrale",
+        "Jacco",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/18DVnH4UUwCMwwAVy_d9I_j2Mv6g6_Owq/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_cepo",
+        "Cepo",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1zttZke7U0s95ZoJxDjp14vPpB-bqqn6e/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_childsplay",
+        "[W00T3R]**DR3W**",
+        "2005",
+        "Arena",
+        "CSS",
+        "This is just surf_mp5",
+        "https://drive.google.com/file/d/19KCE2ff5EmueZ7H1knOuHsUX9mQrqrjt/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_christmas",
+        "Mariowned",
+        "2004",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1N-ylUugOS4G0fb77vgkGXXkTiFItNyGy/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_city",
+        "Mariowned",
+        "2004",
+        "Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/10hEs4VfEDym5BfhZg5uoMT6dtuKmKvtC/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_clown_b8",
+        "Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1JA1MnjkSvgR1TqgqQS9kv7yZRBMWgCaX/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_combbase",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "Unfinished, only has a spawn",
+        "https://drive.google.com/file/d/1eGmQT-inZM6aQOriETVYZXvxebQROIyW/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_commune",
+        "Assualted_Combat",
+        "2006",
+        "Linear",
+        "CSS",
+        "Unused edited version of stage 2 on commune",
+        "https://drive.google.com/file/d/1yYe4nYG5vRFiOESlIIaBsG1M-6G7W2N4/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_again_beta1",
+        "NY Surf Team",
+        "2008",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1CoBzLTuKb9Ah8SKAvw21TQ_Dc868bQWB/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_again_beta2",
+        "NY Surf Team",
+        "2008",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1lf3SNUQL6VbbHX5eNqZSpIj8l02SS2S9/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_again_beta3",
+        "NY Surf Team",
+        "2008",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1HOZWG3xSvRChhhxjkZ7MHWc6ZYWqIAdF/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_again_beta4",
+        "NY Surf Team",
+        "2008",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1X-d_lMrYsvfLRM9LrFFY4q0b64CUlfBy/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_again_beta5",
+        "NY Surf Team",
+        "2008",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1OirHDs4qYZKv22SP-s3ItVmnt3HFwJ4-/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1fw6GbXLkR5G0dSyZv829caMN2DfJAKyt/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta11",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1-rQmEHGEdAfGYmEG3WLgUxJ9hG8HeqFN/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta2",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/13S1SJ72gHaZRV0tPyYtndrGbk9_zjjAx/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta3",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1weu8oSOn0X1GD_fg1u--Afg6RJU4yDpG/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta4",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "Found thanks to Shetep.  Likely nowhere on the web except this site.",
+        "https://drive.google.com/file/d/12gcHiErntFnN7gZmW6TOkQ-afCX5nO1-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_commune_beta5",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Hj4ZfMVuTqpZhUT0E10w9RvxFK83ChD0/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta6",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1-LTCfZEnySk6a-sZRcb9kC92BCyKKZuh/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta7",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1dtT-RNtbwZFsZgsFYAvYvrsTffJKBBbv/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_beta8",
+        "NY Surf Team",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1d3Muj5ogjswQ_TsPYO_w6hxPiu0lFcWQ/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_too_beta2",
+        "FAJ & Friends!",
+        "2007",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1uCj7bCVWtnzBtd-IPLdDcV9d9ikTsifI/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_too_beta3",
+        "FAJ & Friends!",
+        "2007",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1g9JSTI92Ttl_BVlgZ0E_QFmXX7UkEvOi/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_too_beta4",
+        "FAJ & Friends!",
+        "2007",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1jByoDOgHGiLsehWCzyBYUngzsauI7Ae-/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_commune_too_beta5",
+        "FAJ & Friends!",
+        "2007",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1wAoMhbVvob1Bhzi4BrBWObnnll-MaABy/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_complexit",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "Unfinished, only has a spawn and a few ramps",
+        "https://drive.google.com/file/d/1KyEwYlh3P8S83781ybODLCoFIhwNB0CN/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_concretejunglev2",
+        "SP Impulse",
+        "2005",
+        "Arena",
+        "CSS",
+        "Actually fun to tricksurf on",
+        "https://drive.google.com/file/d/1eUV6qT5vyhauNdeAnSHcdMehlY3kia4t/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_conejump",
+        "JeRK!!",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1w1mL8hXDJYjFTWGned6v1liDaaMeWHf2/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_confusion",
+        "sgt_kick_ur_ass",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1sO62QS53Va2e4XIBThRvj_ImtMuzjZSG/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_crakeur_v9",
+        "Crakeur",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1gghnNOjBcKC59obC_W5Y3L6twRZEF6Jh/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_crazy_64",
+        "[W00T3R]**DR3W**",
+        "2005",
+        "Arena",
+        "CSS",
+        "Not sure on the mapper",
+        "https://drive.google.com/file/d/1A6VhccFBhOi_fX5tIkqZMCOakv0593Vk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_crazyjump_v2",
+        "Gatorlangman/Gator",
+        "2007",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1UWVX3rrh6W8eAq1AzN7P-NcT7iXGjDKO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_curse_beta2",
+        "eintagesfliege & B!mon",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Hw3QZQGOnhajQKdUep3utMns3DMqIMu-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_death_sentance",
+        "sgt_kick_ur_ass",
+        "2005",
+        "Arena + Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/179ZvMnniWd9JlhxrJQq1SzImd269m62t/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_desert",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Unfinished",
+        "https://drive.google.com/file/d/14xTqMULWpiT8PyVAjddJlwaHmb2pkzaR/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_devilsquadron_final1",
+        "Airos",
+        "2006",
+        "Linear",
+        "CSS",
+        "Goes by \"zitOire\" on gamebanana",
+        "https://drive.google.com/file/d/1pTQXLcWCHIHVacQyAHRwsEjkZ_pRHNgN/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_digitalg_b1",
+        "X-Shark",
+        "2006-2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1Ciw5vEVsgIzufRdD2BgdoHVfJlndg3lU/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_dilemma_v4",
+        "Wallabies",
+        "2005",
+        "Arena",
+        "CSS",
+        "Reminds me a little of skyscraper (Download is v4)",
+        "https://drive.google.com/file/d/1mZL2lAE0EFf7vy4gbDPUASa3rk2RQq2W/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_doom",
+        "Crowdpear",
+        "2005",
+        "Staged + Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1GZriHF3_-s3J0A4w_c8OtPYtJGIOZ_P-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_double_superk_final",
+        "Matrix Hetman",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/15_FoqvvqTmNnvr91ZYtjrYtzRssT9ilD/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_dragonstower",
+        "Dragonfart",
+        "2005",
+        "Staged",
+        "CSS",
+        "One of the oldest source surf maps",
+        "https://drive.google.com/file/d/16Qw77a1OsYQOCPSBiBo6brDM-L5xjwM0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_dreamer_v1",
+        ".harvey.",
+        "2005",
+        "Linear",
+        "CSS",
+        "Feels kinda like Skyworld",
+        "https://drive.google.com/file/d/1ja4JZM9Q32CpT22tpTPImpgPR9WI01si/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_dro",
+        "Unknown",
+        "2005",
+        "Staged",
+        "CSS",
+        "Map feels like it could've been made by Crowdpear but it's just a guess",
+        "https://drive.google.com/file/d/1g6OJ0-X8jzSFiI0nYSLUbuvM-Qjq_XLJ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt",
+        "Mariowned",
+        "2004",
+        "Linear",
+        "CS 1.6",
+        "One of the most popular old maps",
+        "https://drive.google.com/file/d/1Lod9Tpe6X9DG2gSF-VTE2Cu8yI0jbrUK/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_2",
+        "Silent Bob",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1biTJoe4BP6rV5W6a-kEIbWcge9fGJMCP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_b1",
+        "Simplysped",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1C5MfxwLKaVTIFxrFLiFawIruBW086OeY/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_b2",
+        "Simplysped",
+        "2005",
+        "Linear",
+        "CSS",
+        "Bsp found (Credit to assaulted_combat)",
+        "https://drive.google.com/file/d/1QuGJFLehMvdV3UIdqv9NI_2xpfqViNrp/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_blasted_beta",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "\"Blasted reviews\" was a server most likely owned by a guy named \"kmack\".",
+        "https://drive.google.com/file/d/1CN-VK-pDqgaLUeHJliVg9VrU-MM6RTNd/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_blastedb4",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_egypt_css",
+        "Seabass45",
+        "2005",
+        "Linear",
+        "CSS",
+        "This or surf_urban_b1 would've been the first surf maps on CSS",
+        "https://drive.google.com/file/d/1N7FPsUlCEnVu3StYSldamjbswhLA1EgM/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_fixed",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "A fix on the original surf_egypt port by Seabass45",
+        "https://drive.google.com/file/d/1Mn3QsV_2goLmeWYgO5_28braXTa4QVdh/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_mini",
+        "[W00T3R]**DR3W**",
+        "2005",
+        "Linear",
+        "CSS",
+        "Same as surf_egypt_prisonv2 but without a jail",
+        "https://drive.google.com/file/d/1bISew8lGXqUgKbCeIC2zqScHpBSfnPpS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_prison2",
+        "[W00T3R]**DR3W**",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1H8UFIftJA4Hnhv1mlcxSEI2lezQUG6Gm/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_source",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "Same as surf_egypt_fixed",
+        "https://drive.google.com/file/d/1ftwyAmhAWc5Q5P_523DeBhhlBVaVE5CJ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_egypt_Xtreme",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_eibertv1",
+        "Eibert ten Hove",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1A5l_E_YBjDk6cRFKg9XtKMzHRKvAN0K9/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_elites_v2_sth",
+        "Shadow",
+        "2012",
+        "Staged Linear",
+        "CSS",
+        "Edit of surf_elites",
+        "https://drive.google.com/file/d/17VlMRQxrp8aOF3Z5NiE7dVbMCRpoBtnK/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_elites_v2_sth_h",
+        "Shadow",
+        "2012",
+        "Staged Linear",
+        "CSS",
+        "100 tick version",
+        "https://drive.google.com/file/d/1aVpYq8mcouJamLosS1bsFX0u4STUeWui/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_epic_lulz",
+        "Spoz",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1wH1MEonOrHjwGzhV9RAbLC1rQR4OK84g/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_evolution",
+        "Eintagesfliege",
+        "2005",
+        "Linear + Arena",
+        "CSS",
+        "\"I like this.\" - KingYoshi",
+        "https://drive.google.com/file/d/16nJBctFAzpnrdQe7KGGztkYBbEa85ZhQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_f",
+        "Ptad",
+        "2006",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/17unahr8o9DbyJEjqfxXZtkLbwFBsDGTV/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_f00d",
+        "Zil",
+        "2005",
+        "Staged",
+        "CSS",
+        "Has other map parts in it like surf_lamo",
+        "https://drive.google.com/file/d/1_OT75odoaHMInHJAX-A43D_FPqsMdqBa/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_faceoff",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Power fusion made the remix version of this map, original mapper went M.I.A after making this",
+        "https://drive.google.com/file/d/1IotlNPqoE0aFnUkT2cfhwRyBzqBWUDWn/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fastspiral",
+        "Eintagsfliege",
+        "2005",
+        "Arena",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_fastspiral_2",
+        "Eintagsfliege",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1cMZXZUCAQIoCacxiH_GYbtZat_WE5TSC/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fastspiral_finalversion",
+        "Eintagsfliege",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1TogDHgsz3QoN4kNJd1nZ4Q6LTNTtHHZO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fastspiral_v2",
+        "Eintagsfliege",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1KGtB1a5sjUhfPtZCx8wpafH_H5t1Llwq/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fatmike",
+        "Fatmike, Sakto & schmo ",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1X6-Jk8grqDpl19nSIlkaQGS3TDS5Q4Co/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_feret_v2",
+        "|SURFOIDS|F3r3T",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1c_-3K3Qk8MD59oEQJ4hwZXJk1fQ9qJ1g/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fightclub_final",
+        "Yum3ki",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1JXagVdn_lTGJhVPHVixjpvWYpAV4_JuY/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_firingrange",
+        "Choggi",
+        "2005",
+        "Slide + Surf",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/124ZaCXqLZOs0TqFwBdEK2MI8dpLoH9Ub/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fizzycave",
+        "BlobbyMahn",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/19zChN2JwLnafpw5nq-ukEF0twJCoJwVZ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_flubba_v6a",
+        "-ES- Flubba",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1afKlYwv7RD9XlkZS8xoj0hBwhzUgOVBl/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fourcorners",
+        "XShark",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1-J4WpqFJqzbbrgRE-YS5Ff0kS0Gd3xC9/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fourcorners_b1",
+        "XShark",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Icb-z3ex57bLNclDg3f5Fy-BmKgPhU5W/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_freestyle",
+        "Joker",
+        "2005",
+        "Freestyle/Arena",
+        "CS 1.6",
+        "No weapons but is built like an arena",
+        "https://drive.google.com/file/d/1h-eYyHSZIVsQUh33QRysu6a5mnsifCp1/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_freestylex",
+        "Aura",
+        "2005",
+        "Freestyle/Arena",
+        "CSS",
+        "Found thanks to Shetep.  Likely nowhere on the web except this site.  Same file size as surf_freestyle - is it just renamed?",
+        "https://drive.google.com/file/d/13Np1j2YZmbABTKf5szbBjf50uHtfXXlF/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fucking_insane",
+        "ShiverX",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1TmUHZkORvYqtnV7PfRHYXManzC7fcdl1/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_funpark",
+        "Meat_Wagon",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1GcYNqyA_VFxbwYwdR07UuhuUzJ9TTInk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_funpark_x4",
+        "Meat_Wagon",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1m5Nvf4M-lagmr18apkz836_B1d716XKy/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_funride_tex",
+        "Eintagsfliege",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/12amNvtSsfQ6z4W0dMmLxFP25ADm4ALaY/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_funzor",
+        "Gradeoil",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1qMwEQuJ0UjhbYiu1NFU_MW6B58Knmj36/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_funzor_double",
+        "Koko",
+        "2006",
+        "Arena",
+        "CSS",
+        "Just a bigger version of surf_funzor",
+        "https://drive.google.com/file/d/1nsCaMDs1pwMH_19i1S-lYaxlOBnC8kib/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_fy",
+        "[W00T3R]**DR3W** and Impulse",
+        "2005",
+        "Arena",
+        "CSS",
+        "Just as boring as surf_bigramp",
+        "https://drive.google.com/file/d/1UhBD8hNUKjORMT11oGT3VZOjMLEb6xVT/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_gah",
+        "Gaiy",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1qBpi53hj_DLRLvyDTHtsTeX2TAH2vLoh/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_gathering_lite",
+        "The Cartographer",
+        "2006",
+        "Arena",
+        "CSS",
+        "Huge map, also went by \"latrosicarius\" on gamebanana. Made for the gathering clan",
+        "https://drive.google.com/file/d/1wqLVEvbP8wRSXnt5iISurWIQbZAkqR-0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_gauntlet",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "Per NeXxXuS - has the same worldspawn \"surf in skyworld yo\" as skyworld.  Same creator as Skyworld likely.",
+        "https://drive.google.com/file/d/1I8Lbys3Gu9rr-S75oIZrnWuFcFveXIfX/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_genocide13",
+        "Tijnoz",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/12TE09R1dSQjee4mQni6PRmVMg7FtCFI3/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_gge_gigant",
+        "Cepo",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1XkgqI_dbIo1yDoGg2arwF445NIImNt8F/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_grassland",
+        "Captia",
+        "2005",
+        "Staged + Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1B00em9awh5QeyfBN2g1z6_VgokpsErPX/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_greatriver",
+        "MonkeyDie",
+        "2005",
+        "Arena",
+        "CSS",
+        "Apparently there was a map before called surf_river, although cant find it, information from gamebanana",
+        "https://drive.google.com/file/d/17ZuURcSvxMnSPtqaAqIjYn6nKmR4PwUC/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_greece",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Found! 07/02/2024",
+        "https://drive.google.com/file/d/1ou_nJuRFoKpE5ARsMOVkNVj_ljMAKdCN/view?usp=drive_link",
+        "test full"
+    ],
+    [
+        "surf_greenlands",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "Just a skybox for an unfinished map most likely",
+        "https://drive.google.com/file/d/1M_39bSqKSUSicjx_nYkPehjbYSrptB4T/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_greyfoxrats_final",
+        "ox2 Surf || Grey Fox ||",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/16dEMBZLEqmVTUZZQyIaZqdKCUaoUGSMI/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hang_time",
+        "ZaLoS",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1cLagibdpgYd2pCvN7bMJql8zV_W18AT2/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_heavenlydeath",
+        "Choggi",
+        "2005",
+        "Flushed + Slide",
+        "CSS",
+        "T's have to climb to the top whilst CT's throw props down to try and kill the T's",
+        "https://drive.google.com/file/d/1MDAyGutQb2pRLyx9X2VZlc_g1yyk2ihH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hellfragger_v3",
+        "Nightzrich",
+        "???",
+        "Arena",
+        "CSS",
+        "Earliest date this map is mentioned is 2009 but unsure on an actual date",
+        "https://drive.google.com/file/d/1xYdEC7Y0F7Y5F1BGX6CHtLbWiSnRbyKZ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hellV1_final",
+        "Lexxure",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1SzO08KgLWdg0h6I3tIQ7v6a2vzf6AMZP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hills",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "Just a spawn area linked to surf_hills[1]_d",
+        "https://drive.google.com/file/d/1bb13S3lNaN8D3E0NUwyvcRurVvXjuMH-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hills[1]_d",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "Unfinished",
+        "https://drive.google.com/file/d/1MEUZceTmV1PkT8Xv5abxHXS-GwPyTEIZ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hills[2]",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "Unfinished, broken, crashes your game, download surf_hills2_d for the working version",
+        "https://drive.google.com/file/d/1XClM4QLOWE1IP4C2HGMaH76rI034lEMk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hills2_d",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/11HbvW7vimkm_H79I2GmeEZc6uVCaBt1A/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hippy_v1",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_hotdog",
+        "Unknown",
+        "2005",
+        "Staged",
+        "CSS",
+        "Broken textures everywhere",
+        "https://drive.google.com/file/d/1mfOuSHe79gB6CVy_ms-E-gSY0hraLubT/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hottub_v1",
+        "AOG",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1iWMuIXOYlOKdS5Q6f6F_Fy9oqIwPFukI/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_hsh_dm_v3",
+        "|DCD| Fitzel",
+        "2006",
+        "Staged + Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1dV3gywnYVut9vgE-vmNnIZ8711zxmxWs/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ht",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Surf_faceoff",
+        "https://drive.google.com/file/d/1A8GVKUW-8AOHbqY0aslvq5cW0W1Fwbf3/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_I_Hate_Campers",
+        "snah",
+        "2005",
+        "Staged Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1WrxQpzeEyN1M9IGRymVNRt2Cqy1qUrf0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_icecavern_v1",
+        "Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1u2tkx7neW6a0P8L2ivRlExW749S_tmtP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_iceworld",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/17reBKqHWt01U3-CQChPVIg5uhnZjWNvu/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_iceworld_extended01",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1mOjxtN64bgTD3WAKB_YyGYSToI_6OtxO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_iceworld_extended1",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1ndJdASeiNZ0YaKmfpXnyi5d9EvoeYk50/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_iceworld_ss1",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1F9qbgUfyVoGFzJ5mAxwP2DWQ3ec8SmEg/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_iceworld_ss2",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1B5dQ-kMJwwA2jemlmkIBRc9N9c9kV4iP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ik_monkeystyle",
+        "Kaikarden",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/11J-o_zzX3kKsH-X_QIXPupK7LtsyThMO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_inca",
+        "Elemental",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1l16lNhL5k9fB_WWR_EHGPfNRLfwEgcuw/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_inca_v2",
+        "Elemental",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1a7NkUbrErND6Bsm-5EYzU1pGZ_DzvHFb/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_infusio_beta",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "The exact same map as surf_mayhem",
+        "https://drive.google.com/file/d/1wwGydL7cygucSnZoK6nqxyIA3Qi-z14i/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_intel_v2",
+        "Intelevend",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/18GY5e4lzuSh1bsdBkDHyX6y9VsQKhT1A/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_italy",
+        "fancy_pants",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "Amazing Freestyle/Tricksurf map",
+        "https://drive.google.com/file/d/1eSn3JpmqKpsv2MJN2yb2F5tTIC7zzj1d/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_japan",
+        "MonkeyDie",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1guJCXko9ClUyOKnS3Sk-_y1IplS62XTs/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_japan_v2",
+        "MonkeyDie",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1SPfPZpOPAZpHxCaxVx13UrzpdkDDurCG/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_joust",
+        "SSJman",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1KTZbxL8KsskyhSmaKPmXog9BRSXspI7R/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_k2s_greatriver",
+        "Unknown",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1PStMVrahOcLZMpP22BzMPxc0iQvaR96d/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_kernick_v1",
+        "Kernick",
+        "2006",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1AOLN25YmJN6ECHT0ja8vss1UHt7lrjpz/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_kr",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Similiar to surf_mayhem and surf_infusio_beta",
+        "https://drive.google.com/file/d/1offJKQnupsEyzrOtNqKqXp8k1aZqnTi4/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_kwistaz_v3",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "This is just surf_monorail, however I believe this version came after. Have a feeling Crakeur made this map.",
+        "https://drive.google.com/file/d/1lXUcALwHbdI8fDVLYU1RMs2sdizVz78O/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_lamo",
+        "Sir-Lamo",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1JCiI-nJeM89jze-TOj1WW3E7mS84_CgO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_lamo_final",
+        "Sir-Lamo",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1yN1McQ23fyTq25oCzKJcMLQZ5KCnELHT/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_lamox",
+        "Unknown",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site. It's just surf_lamo",
+        "https://drive.google.com/file/d/1cXr360zz_UjyD29iepN_AP0eio7rCOob/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leeroysurf_final",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_leet",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "90% sure it was Menard but it's unclear",
+        "https://drive.google.com/file/d/1Tv2dhZlMq_Dd7X0lMJFbU4rtw54gvbjH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_broken",
+        "Silent Bob",
+        "",
+        "",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_leet_broken1",
+        "Silent Bob",
+        "",
+        "",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_leet_highroof",
+        "Choggi",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1zbhTkCChGmX5ONcdjUS0U5o5YyutQ6Jv/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_highroof_v2",
+        "Choggi",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1NG3Ga7tlsr-Lu_7nmhWRDkEYTWDHsJDO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_highroof_v3",
+        "Choggi",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1-ATtJOGyiZvWr6C822pSbMBCQaB_YdqT/view?usp=drive_link",
+        "test full"
+    ],
+    [
+        "surf_leet_highroof_v4",
+        "Choggi",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1grO58DRxnZxHW9qHBqzG-appsYGQrSJc/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_highroof_v4a",
+        "Choggi",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1KqAvIcCJ7n4wT3Xb1KMYZaIBJxk-Zqiw/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_holz",
+        "Holz",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/14zogHpfUGW8PFAbLStSuAlnZ8ppcSR1o/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_m1",
+        "Menard",
+        "2005",
+        "Linear",
+        "CSS",
+        "Surf_leet but the spawn wall is removed and gman is there instead",
+        "https://drive.google.com/file/d/1rdtPxLVM7iZTQrrcC9sjUoJqvO6tvXlw/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_omega",
+        "KaiKarden",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1bqyLbNykqo9Xe50lNrz84mVsgw0GGXjE/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_se_b2c",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_leet_se_beta1x",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/10rQJkCqGNCoBBFaeROQLvJ-gDYRphpcR/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_turbo",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/15NWMOPg8WeobG7CbHnXsdahPVAWYIElK/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_turbo_dbeta",
+        "cAPTIA",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/11jZEr1re5ONJFBFHPp_BKaSNIy7tqdcr/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1NHbDLl-w0IOI54ewkA54J1wjZJM-l81r/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_2_turbo",
+        "Cepo",
+        "2006",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1zMM5hvSimaOL24j8O8tEjx3L5d_-YO03/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_anti_n00b",
+        "Jim",
+        "???",
+        "Linear",
+        "CSS",
+        "Found thanks to Shetep.  Likely nowhere on the web except this site. Unclear release date, only date being 2007",
+        "https://drive.google.com/file/d/1MmFSNCRm3c0SnLVTZati9xQqRDayaLxq/view?usp=drive_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_beta3",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1raoTpwzEl1Nxtb26qRhJJQTTLwHcSi9-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_beta7z",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/17qUYTdddxB6oiSGjiM4WCJx4Y29SwpB_/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_beta7z_32",
+        "Unknown",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site. It's just surf_leet_xl_beta7z",
+        "https://drive.google.com/file/d/1BgRdWi03zvOUbAfO8Gj4lt5BnWp0niMd/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_beta7z_pmd_v2",
+        "PMD",
+        "2005",
+        "Linear",
+        "CSS",
+        "Unclear if PMD was a clan or not but either way, they made it",
+        "https://drive.google.com/file/d/11UCF1JOOCaFiMovppdlbuLtNTWqVCe46/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_final",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1rkUH1Hyf23yTMIkEGJ0dFcwiInEmcKi_/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_r12",
+        "Swiny",
+        "2005",
+        "Linear",
+        "CSS",
+        "Just surf_leet but with lights and a small jail",
+        "https://drive.google.com/file/d/11LTxAFpY6CFrfVcMZQXnSbmmGvdvSNQS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_reloaded_b1",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "surf_leet_xl_r12 but with a different end",
+        "https://drive.google.com/file/d/1PUaxkU0rEwnIFzYEe2-ugEzS3NuOwqKV/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_remake_v1",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1BA7Yu6V545CRBNe-0z6ehWvUJpqQbZNn/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_leet_xl_xtreme",
+        "Psych0 and 0z",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/19m21O7X_8HIf14Q7-Z5Se95ecfjZdZ6Q/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_legendsx",
+        "Unknown",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site. It's just surf_legends",
+        "https://drive.google.com/file/d/1gOlEClBVOSYNswzZ4aYvkOzdsa6J8U23/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_liberty",
+        "Crackhead",
+        "2004",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/146gU2IJK79UvRDw0Qhs5uva89zS1tgeL/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_loop",
+        "SP Impulse",
+        "2005",
+        "Arena",
+        "CSS",
+        "Just the map back to back",
+        "https://drive.google.com/file/d/1VfUE6X6PSsoYUbDb4bE4uK892anmhP9f/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_looptest",
+        "Unknown",
+        "2005",
+        "Staged",
+        "CSS",
+        "Test map, not really in any working condition",
+        "https://drive.google.com/file/d/1oEWXJLAgjXw5ExA1m20h1FIfcIDVPExP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_loptyloop",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_lost",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "Likely an early map.  Similar to egypt.",
+        "https://drive.google.com/file/d/1pxnKu_f4c_7sjEhbtLoQh--PpSc1QoYZ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_lost_css_final",
+        "Endr/ENDERARGH",
+        "2006",
+        "Arena",
+        "CSS",
+        "Remake of surf_lost from 1.6",
+        "https://drive.google.com/file/d/1Po7FulmHikMMgLlVNzPvtfSEfsjTcQTk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mac",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "It's just surf_machine by z-machine",
+        "https://drive.google.com/file/d/1FJdKjMAOYdApmb3ThTl3fkDKsGX6AA5R/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_machine",
+        "Z-machine",
+        "2005",
+        "Arena",
+        "CSS",
+        "Popular predecessor of the popular tricksurf machine",
+        "https://drive.google.com/file/d/1SsF5e0hbyNhhRJLCpDjxJhgpD5KuHs-B/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mansion_v2",
+        "Philibuster & Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "Philibusters first official map",
+        "https://drive.google.com/file/d/1WvApTQGhe-oH08fsqx53DobEXea2Sy_Y/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_marble",
+        "UberSpeed",
+        "2006",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1b9riAZ_VSaLdhag4h5J7g5Zy8dPjNM79/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mario_1-1",
+        "Unknown",
+        "2006",
+        "Arena",
+        "CSS",
+        "Looks unfinished",
+        "https://drive.google.com/file/d/10eGdyMAfWeu9q5uYVqN9A7fdM0txTi9B/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_master_episode1_lightsout",
+        "Master XipiX",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1beiuZfQWU8h8QF14Rks5IX2gTilPxJMH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mayhem",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Very similiar to surf_egypt",
+        "https://drive.google.com/file/d/1MhJ4RDMiWVMpvfUyJHhE3iWIwUtxtWSS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_meh",
+        "Mad_Scientist",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1q1YpRMbUyMYaMFm-L7yCtGcZzF2VIUaF/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_meh_chopper",
+        "Mad_Scientist",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1VcMa2kk-Y1kHXKf3Fqy1QN34LruLtphY/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_meh_chopper_vmax",
+        "Mad_Scientist",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1pR4SZ-h2Gu9qdb3SFQ1z-9NdLP_UNCRq/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_meh_final",
+        "Mad_Scientist",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1MxJR6boq9d33wLZgl6tA_ILshFZc8ptB/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mellow",
+        ".harvey.",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1u7S3mirOns6aMwUbn8yWKEqfJN2gX41C/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_meltdown_v2",
+        "Steve and Cleavage",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1OpGWWYMKqcasuSntoJiOLcpmnyGStqD6/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_menard",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp, the original version of surf_leet_m1",
+        "",
+        "test full"
+    ],
+    [
+        "surf_mental",
+        "Gangstakill",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1shEE73v-rDxZhGVt2p83ka-0cwwrM4C6/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_metal",
+        "Owned",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1_Szh7QPifOD9lAGBkzSzLpLjpRDIS_ip/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_microcatsinsanity",
+        "Microwaveablecat",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1LtAn7CkUqY5gXdBwVKAHNPnm2kpz6g6S/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_microcatsinsanity_b1",
+        "Microwaveablecat",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1A-URnc92SJV6PY5atJaSX9egCoYl_3w6/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mole",
+        "SP Impulse",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1FluJlMcPQLWJYxa48k9Vn0rdtA7-RoKi/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_monorail",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "This is just surf_kwistaz_v3, however I believe this version came before. Have a feeling Crakeur made this map.",
+        "https://drive.google.com/file/d/1r-dCj7GY0maB7F13wj7PS1RDHS3FQcdW/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_monstermetzel_beta_h",
+        "Horst",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1kJpC-sfAwrMURu3n3XVewFBcb-RfORKk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mp5",
+        "[W00T3R]**DR3W**",
+        "2005",
+        "Arena",
+        "CSS",
+        "This is just surf_childsplay",
+        "https://drive.google.com/file/d/1dHs1OvxmaoJXxJ6zDQvjEKlwQxifI3RN/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_mylec",
+        "2D-man",
+        "2005",
+        "Linear",
+        "CSS",
+        "\"JP\" Under the spawn, unsure what it means, there's isn't a jail so it isn't \"Jail Portal\", possibly creator initials",
+        "https://drive.google.com/file/d/19QpMmZSQ6UjE5bdbcHvV7uWZzkyjwy8o/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ndak47",
+        "Napoleon_Dynamite",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1ui5j9xO4v_SOxJmp9e97rxv1LlwzPQSi/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_nemesis_v5",
+        "Nemesis",
+        "2006",
+        "Arena + Freestyle",
+        "CSS",
+        "Pretty large compared to other freestyle/arena maps of its time",
+        "https://drive.google.com/file/d/1iITJtK2WhSFzVaPn_7J9NR_35dy2UtQQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_newyork_dx",
+        "Decemberx",
+        "2005",
+        "Staged + Climb",
+        "CS 1.6",
+        "I literally have no idea what this is about.  There are multiple ways to get to the \"end\" and when you do, you get killed if you touch the triforce",
+        "https://drive.google.com/file/d/1zcU-WFGlB5vNAy3_6LIsLU_zj2YK_OIA/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ninja",
+        "Mariowned",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1oZ0oI7zhQtE6ub6hhlo6c_ooj55RqBja/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ninja_css_beta5",
+        "CreV-",
+        "2005",
+        "Staged",
+        "CSS",
+        "CSS port of surf_ninja, 1.6 staged map",
+        "https://drive.google.com/file/d/1BsAVbtqvYATsG_QKzUubLqsIVNqk8nq3/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ninja_css_beta6",
+        "CreV-",
+        "2005",
+        "Staged",
+        "CSS",
+        "CSS port of surf_ninja, 1.6 staged map, Bsp found (Credit to assaulted_combat)",
+        "https://drive.google.com/file/d/1KJl2mXfUI13XnmE2nvsU848e4LS-84iB/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ninja_css_beta7",
+        "CreV-",
+        "2005",
+        "Staged",
+        "CSS",
+        "CSS port of surf_ninja, 1.6 staged map",
+        "https://drive.google.com/file/d/1JBj_raF1JMJaNwmPo3Z-JydkjailliUE/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_nitrogen",
+        "Dibby",
+        "2005",
+        "Arena",
+        "CSS",
+        "Feels very high quality, most ramps were not this smooth during this time",
+        "https://drive.google.com/file/d/12MD480CZ92pe5fQeX0ffGK9NNU4blWqo/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_noobish",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "3 Second map",
+        "https://drive.google.com/file/d/1v668cq6QKJ6vfZXu9h5cgDt76HKShZ0d/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ny_masterexploder_b1",
+        "Faj",
+        "2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1kPNy7xPmoCVoF8vQkRweKwzyoml2KAye/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ny_rresist",
+        "Faj",
+        "2007",
+        "Linear",
+        "CSS",
+        "Found thanks to Shetep.  Likely nowhere on the web except this site.  Only discernable difference is no awp mounted on wall at end like in surf_ny_resist",
+        "https://drive.google.com/file/d/16IwrQKC6bTLa4xljf2RSsbKoXCBAibdX/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_Oblivion_Final",
+        "Lexxure and Slayershadow",
+        "2005",
+        "Arena",
+        "CSS",
+        "Found a different surf_Oblivion but it was made by someone named \"Psych0\"",
+        "https://drive.google.com/file/d/1aFv46FN27TLc2K9CnW-X_WwCm1MkU1n5/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_oncar",
+        "Cepo",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1xPuWspimh_GJGaWGkETSdnDygIwS_jEK/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_opticalgaming_legends",
+        "Unknown",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1V_raHYNoTh2ouG7S4ORGkDouEobc8Qzw/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_outwards_b2",
+        "Shifty",
+        "2005",
+        "Staged",
+        "CSS",
+        "Pretty good gameplay for 2005.  URLs listed in map: zulumonkey.org, ozone-11.com, shifty.zapto.org",
+        "https://drive.google.com/file/d/1Z3qLXYuDtuzw3E97f32ctb0pNcrPQyTE/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_pacific",
+        "Shr3d",
+        "2005",
+        "Staged",
+        "CSS",
+        "huge bright light that prompts you to \"go into the light\".  Maybe the only map  of it's time that uses on screen text",
+        "https://drive.google.com/file/d/17EkwAfRptvYXRefBWCJNoxlGM7A7ZbDj/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_park_v1",
+        "BizZare",
+        "2006",
+        "Staged Linear",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1JOQ_7d4gCtqZAds9iMdZzyPyZcTQC70A/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_pidda_race",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/14fyzXR_ebbrtKxegy_qAyiCAqUM1jx1v/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_pimp",
+        "Hippy",
+        "2005",
+        "Arena",
+        "CSS",
+        "\"John H.\"",
+        "https://drive.google.com/file/d/1nkL-F9ZvMNfrWLs9UYfGMTNUplqED1Gb/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_piraraa_b2",
+        "Grey Fox & Dosy",
+        "2005",
+        "Staged + Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1l7ycZDfVyLFYRMTfg-LETUfhIp7uKU1G/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_plate",
+        "Captia",
+        "2005",
+        "Linear + Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Zf5wDYyOdwkRNnVpRkcYnyAza3MaEvDm/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_power_b1",
+        "Shifty",
+        "2005",
+        "Linear",
+        "CSS",
+        "names listed on \"people who want to say hi,\" plaque: TJ, DucTruffe, Insanity, Ir|sh, GUS, Bio Man, Peanuts, Yekim, Hades, aX",
+        "https://drive.google.com/file/d/1VT5-IribDMUvCHDDMAuUhHVmZs9rhA1O/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_prisoner",
+        "Encrypted Cell & Mr. Cow",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1yvHyauUFqLHa31JYrgurLGyaBbj8qw3_/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_prisoner_v2",
+        "Encrypted Cell & Mr. Cow",
+        "2005",
+        "Linear",
+        "CSS",
+        "I dont know what's the difference between this version and surf_prisoner",
+        "https://drive.google.com/file/d/1aLNl2E5pOuY4ozZ4pi7Q7ATf5GiHbhyt/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_pro",
+        "Flip",
+        "2005",
+        "Staged",
+        "CSS",
+        "Maybe made surf_pro_b1, the maps are quite different though so it's unclear",
+        "https://drive.google.com/file/d/1rFpvxHBqAkFp0AQs1FbDyysw-GCbru_H/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_pro_b1",
+        "Flip",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Xw6JMgQ3GktT0rL8tMRM6RCQGQU3oaRx/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_pro_leet",
+        "Flip",
+        "2005",
+        "Staged",
+        "CSS",
+        "Found! 07/02/2024",
+        "https://drive.google.com/file/d/1XrLrDvhg-ITBmzP3TbnUqegUguCHyrHu/view?usp=drive_link",
+        "test full"
+    ],
+    [
+        "surf_pyramidduel",
+        "YDN Oblivion",
+        "2006",
+        "Arena",
+        "CSS",
+        "e-mail listed on map is OBLIVION_EE@GMAIL.COM",
+        "https://drive.google.com/file/d/1k3ramU57ew63h2xQsdR-WUSR-5Nji5z3/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_race_long",
+        "Simplysped",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/18957MCcVKJO9fylu8LY8BvUkFD4EdCQ4/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_race_V1",
+        "Penguin & Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_race_V2",
+        "Penguin & Silent Bob",
+        "2005",
+        "Staged",
+        "CSS",
+        "Boring and repetitive",
+        "https://drive.google.com/file/d/1FGljd3IQMofIawxAGpbAAV6_ggSqgdBp/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_raceway",
+        "EncrytpedCell & Mr Cow",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1DXu-H9gxiX1BXeJawXaenzbOfIX9UwhM/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rebel_resistance",
+        "ArchAngel & Lethalis",
+        "2005",
+        "Linear",
+        "CSS",
+        "Very popular linear map",
+        "https://drive.google.com/file/d/1uUcR_ftwQsqLAexW2VAA0FgbKTybXyIp/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rebel_resistance_final2",
+        "ArchAngel & Lethalis",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/14k7XERGLFU3XN2ZeC6ucKZKdden06PXm/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_renagade",
+        "Simplysped",
+        "2005",
+        "Unknown",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_ri-lax_save4",
+        "Unknown",
+        "???",
+        "Unknown",
+        "CSS",
+        "Some unreleased test map, most likely made by BigBangQuint but unclear",
+        "https://drive.google.com/file/d/1WnYtU6W0Aaf28zWIolKlsbcC0OjQ_vAQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rising_sun_kb2",
+        "Buck Nasty",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1mpdb0DWAVigjyl_6A7bwSBxVj6Y77yx0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rocket_robinhood_v1",
+        "rocket_robinhood",
+        "2005",
+        "Staged",
+        "CSS",
+        "certainly a lot goin on here",
+        "https://drive.google.com/file/d/1TE_XWPDP_RSg-NlLsdaYDLDdH_-4he5-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rofl_beta",
+        "Marcodazz",
+        "2005",
+        "Linear",
+        "CSS",
+        "Marcodazz = Daz",
+        "https://drive.google.com/file/d/1J6LOtQw3SS6n6b1qYTegqI-PJE7pBRhE/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_roof",
+        "Z-machine",
+        "2005",
+        "Arena",
+        "CSS",
+        "really cool design and atmosphere, rare for this period",
+        "https://drive.google.com/file/d/1FWzIxvkt-Rm0UqeB-_uSy29CKenCgGzm/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_royce",
+        "Alexroyce",
+        "2005",
+        "Staged",
+        "CSS",
+        "Really good map for 2005, design wise",
+        "https://drive.google.com/file/d/1fZXc1Iilo2HKcEAKPTOxaRk-c1PklWs_/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rr_reloaded_light",
+        "ArchAngel",
+        "2006",
+        "Arena",
+        "CSS",
+        "piked.net appears in the map",
+        "https://drive.google.com/file/d/1J3CD4KwYVlA7b6G7pbibg414_YSWhgB6/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ruins_css_beta2",
+        "CreV-",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1rvD5eGuuoMjzWIknB6MHVZaDDqbtzDIv/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_runaway",
+        "00PINE00",
+        "2005",
+        "???",
+        "CS 1.6",
+        "Some sort of escape map?",
+        "https://drive.google.com/file/d/1BlZuVHOD4BV-RH9VPLhbobVzaWJFJuWq/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_rundown",
+        ".harvey.",
+        "2005",
+        "Staged",
+        "CSS",
+        "No bsp (http://www.interlopers.net/forum/viewtopic.php?f=3&t=7445)",
+        "",
+        "test full"
+    ],
+    [
+        "surf_rundown_v2",
+        ".harvey.",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/15yMYtKKUhuAKNo9V4mSJRIJfSWmQMkz2/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sandwitch_b3",
+        "Dosy",
+        "2005",
+        "Arena",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_sandwitch_final",
+        "Dosy",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1gNLvAufg6yjdg0NXNhsyc6HtLT_yyjkt/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_schmo",
+        "Schmo",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/10wwb4YjHSx9_lGc2Yh7shA6Dc_50JAE5/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_shamrock",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1EeFDC9snQfh_hHq20hxusEtsZQe0sIZj/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_shivvers",
+        "SP Impulse",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1JYkEnJpWMoOWs7nER-UoWvU7--iUibXf/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_siam",
+        "Syenci",
+        "2005",
+        "Linear",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1FY2YGjoT36nhuvWAvwKUbDalFIaPuoQl/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sic",
+        "LexusGS300",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/14e5k11qASVducZvPTSMXI4NUzm7sTINS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sic_texture_beta2",
+        "LexusGS300",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1K4kTQjtbzYgehrBl-8684GW8AjX38zJw/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_simplysped4",
+        "Simplysped",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1mAHVrMnSpYQVcr49_9Ech9UJgNtDOEuR/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_simplysped5",
+        "Simplysped",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "Pretty sure this is just surf_simplysped4",
+        "https://drive.google.com/file/d/1SAXeAEWIwM3GI72iPV6T1cdDH8UgbICm/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_simplysped6",
+        "Simplysped",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1YwxRJvyT7bI18KFNlZ7yV2sa8lCPTmKQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sinsane",
+        "b0at",
+        "2012",
+        "Linear Staged",
+        "CSS",
+        "Although technically not old, nor rare, this is the original BSP upload from gamebanana which doesn't exist anymore",
+        "https://drive.google.com/file/d/1c0qpr8jxZ9DX5FfaCKmxSDoN6Xxaci9e/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skate_park",
+        "Flan",
+        "2005",
+        "Staged Linear",
+        "CSS",
+        "Says \"Happy-Camper\" above \"Flam\" in a small font",
+        "https://drive.google.com/file/d/1PQhRHF5qvXxB9RbnHpT-i1VnpG6CeXef/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skate_park_skill",
+        "Thay",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1cVwVaqeSaEUuooovMxFoew-DQxsuax4K/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skate_park_v2",
+        "Flan",
+        "2005",
+        "Staged Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1pj86r1MZnD81Mixx90KiPuRmXMW0zPAj/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skate_v1",
+        "Mariowned",
+        "2004",
+        "Arena + Linear",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1G8_j1NyiQuSZ3VnzsEKTFUgO040vrTq9/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skate_v2",
+        "Mariowned",
+        "2007",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1wsgd9iMahR7wKnBzc3ZkidrS3kMOiU_g/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skate-extreme",
+        "Unknown",
+        "2006",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1vNjq5AtL48qsThU58QnesEqMtJii303h/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skeet_se_b2d",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_ski",
+        "PoPcorn & Wilson",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "Legendary map",
+        "https://drive.google.com/file/d/116dN6xs2pZHbSkms930CtRc9J8NF7BUB/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skillin_dx",
+        "Decemberx & Noob",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1ddZsxeY4wleSU0njgBUU4SI2GdAtuRVr/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skills",
+        "Unknown",
+        "2005",
+        "Staged",
+        "CSS",
+        "Potential mapper named \"Jablinsk\" https://web.archive.org/web/20070703015720/http://forums.solidsurf.info/index.php?topic=853.0",
+        "https://drive.google.com/file/d/1UuvAeoq4Egtxxdb-97upu2eQuEe4ONSb/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skillsv1",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_skisunday",
+        "Unknown",
+        "2006-2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1tHvEHobMTjGEGZ3ZIK99BODsIvxNMUrx/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sky_b2",
+        "philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_sky_v3",
+        "philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1Hv0v6frSeNSClfWcYDz70pH_jfCkx00X/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skycastle_07",
+        "Kaos4u",
+        "2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/11vY-qxoDrNQzbk_zTB6RXLiL6xABY9Sw/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skydiving_final",
+        "~Aes~Dynam!c",
+        "2005",
+        "Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1XwnVVrsHkz1GD3bg5aqRxFDyK23ZZbQG/view?usp=share_link",
+        "test full",
+        "x"
+    ],
+    [
+        "surf_skydiving-betterversion",
+        "~Aes~Dynam!c",
+        "2005",
+        "Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1lrlgU3Im8psjuv-cwBa-3ZB-Qpd9H23r/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skylight_final_v1",
+        "Mr. Waffles",
+        "2006-2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/16eK8CKAg435JWfYjCNnfaqJGxNeVpTsH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyracing",
+        "S1l3nc3d16",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1ZZhn7-pENCdtDbPWR7J_ArDPKnVnS0P8/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyscraper",
+        "Al Capwned",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1jPlpErdos8h9uF6OdBIg_PEZQ2qnnlFx/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyscraper_2005_prisonv2",
+        "Slappy_991",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1MO_CQvwNNCswDiixX8LV62n43huBEPTH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyscraper_2005_prisonv3",
+        "Slappy_991",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/160Wyh3oqC7VaSmTpBxfA0wGkuzPNtY5H/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyscraperv3",
+        "Al Capwned",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1SZuMFQe-KSV0Ib7g9hhGitVRnTL_cD_P/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skytemple_b2",
+        "f337",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1BQu__-4diRLBNlbjD-gFCiOgsuVsCTcJ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyworld",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Impossible mystery. We've put hours into this one.",
+        "https://drive.google.com/file/d/11n6tKV3_rjCsduADbaf7JdUVfxLIe1mF/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_skyworld_double_b9",
+        "Ace Of Spades13",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1lAFkcOUZzEaeb0xwxuT9RJBU5ASJMPFf/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_slalom",
+        "TMI",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1niwq3abzpz2o-ZOgq-UsTbJNMCItj90u/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_slalom_v8",
+        "TMI",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1IJ3qRBMAGah-rFvbSh-LqonhrTIHhTWA/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_slush_v2",
+        "Banjo_Boy",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1ACu38jdbB3FXrYOp3-svi_Wonp5yFChE/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sniper",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1T_w6l4h_C7o8sen62no9xT3IQUWBFNWP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sniper_v2_d",
+        "Elemental",
+        "2005",
+        "Arena",
+        "CSS",
+        "\"Remake of surf_sniper.\" Unclear if elemental made surf_sniper",
+        "https://drive.google.com/file/d/1NuN3scypwGr_6WzFUQHfKbQ4Gr40-xQs/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sniper_v2.1",
+        "Elemental",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1U0us8hsRUFsqoyLLN2iNZmH61g5B-x3N/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_snow",
+        "Simplysped or [W00T3R]**DR3W**",
+        "2005",
+        "Arena",
+        "CSS",
+        "https://gamebanana.com/mods/123019 Claims drew stole maps, including this one.",
+        "https://drive.google.com/file/d/1dToDrQrLphzH9HeMXT4t0J6RTm0LSITU/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_snowboard",
+        "Unknown",
+        "2007",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/16nhgfH6q7BFXCx7kvbAb5phe8l-ZXU9u/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_snowtube",
+        "SkinHead ",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1a-AnJaOZ9LFnG2Q1fjuLmKtVCo83kLph/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_soc_v2",
+        "Soc",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/14aY2tL4jyQZTytm5VUBlzWFBasegu79o/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_solidsurf_r2",
+        "Unknown",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1T7Qb4nevrrjED1bMby6Y77_OXZgorynS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_spectacular",
+        "Simplysped & Zidd",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "1/1/2005, also unsure of the mapper but it's a high chance",
+        "https://drive.google.com/file/d/1Ti_diAwKRdC9i34U1fEGUnebIXJgl0V7/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_spectacular_b3",
+        "Simplysped",
+        "2005",
+        "Staged",
+        "CSS",
+        "It's quite janky.  Looks like an early attempt to port surf_spectacular from 1.6",
+        "https://drive.google.com/file/d/1tU6J_P6n6X10n_-XSDjlxRx0PpnbWnJ0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_speed",
+        "Armada",
+        "2005",
+        "Staged",
+        "CSS",
+        "spawns outside of the ramps, pretty much unplayable without noclip",
+        "https://drive.google.com/file/d/1nlaQIVjXZ4Vs8wP319dyrlfBeO3owXkS/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_speed1",
+        "Evil Stoat",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1a8b05o1L0rOjgICuAYcNPSglVonlHAq6/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_speedway",
+        "J3r3my",
+        "2005",
+        "Linear",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1LRedPwLY62JTwOnpnkJdnQPJ6PfUyzkd/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_speedway_b2",
+        "Term!nator525",
+        "2005",
+        "Linear",
+        "CS 1.6",
+        "Skillsurf timer map",
+        "https://drive.google.com/file/d/1wzLDObBTRMpgkq8-b3EC75y-L0Pd7M49/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_spined",
+        "CreV-",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1aYfb7hWrFWYT77pSkutEqyi4nVZvwuVM/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_spiral_v1",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1lpJ8kem1ntaZsqULW5zV1gSua4jhFOHu/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_style_final",
+        "Nonamed One",
+        "2005",
+        "Arena",
+        "CSS",
+        "The most random map ever, shit is just placed every with goofy textures",
+        "https://drive.google.com/file/d/17SqLt5qQttkJvWlCQgyqaM7FsuU2LQLP/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_style_final_beta",
+        "Nonamed One",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1w12W8_k20zTHrJ7fnQZ5YIr2cLWJjoCd/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_style_v5",
+        "Nonamed One",
+        "2005",
+        "Arena",
+        "CSS",
+        "Much smaller than surf_style_final",
+        "https://drive.google.com/file/d/1vpTFIIvEY4-pRjzTHSPgueo3wDvZOqY5/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_style_v6",
+        "Nonamed One",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/18Q5HnK98EtLgZ2F3BhQ_yrC37bo6ANX5/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_suicide_final",
+        "Sgt_kick_ur_ass",
+        "2005",
+        "Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1fVcPfZoPsT8iI9bxX5xbWEAi83QcAf2T/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_suicide_v1",
+        "Sgt_kick_ur_ass",
+        "2005",
+        "Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1wB0WytHhfZydzilbNDmj1c0JajfVXQC0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_suicide_v2",
+        "Sgt_kick_ur_ass",
+        "2005",
+        "Slide",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1eNrhfNIDNGz7AAEhFB7xBzouBiRTxyY4/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_sunset-b3",
+        "Chaos Theory",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1Bsl42ZsKhRErwLlHOM7DH61fzydagvlX/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_superduper_v1",
+        "BlobbyMahn",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1XfK4y06i_f3-o6zgjCAojTDc1jeA37Zq/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_superk",
+        "MikeKnoop",
+        "2006",
+        "",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1eA-RGGCOC_bxy3Fyxk4VH1mtZkdcwhNC/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_superpower",
+        "Killocity",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1sTnCvlWTqyuaq4Acw0OYX61ud46G5Xeg/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_superpower_v2",
+        "Killocity",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/12i_qF69-w_p4fvQhf-8l4rLqURofeagj/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_superted",
+        "SuperTed",
+        "2005",
+        "Freestyle",
+        "CSS",
+        "https://www.gamefront.com/games/counter-strike-source/file/cs-source-surf-superted",
+        "https://drive.google.com/file/d/1PVzE5QN6zGsTIhY-uXmZYE4eVrgRDFcu/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_swej",
+        "Swej",
+        "2005",
+        "Arena",
+        "CSS",
+        "Very impressive for 2005!",
+        "https://drive.google.com/file/d/1QBVbUPjaGerFSLPqmWG9Crf3K-OhOhcx/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_test",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Another surf_test was floating around 1-2 years later made by Ryan S, however, isn't the same one",
+        "https://drive.google.com/file/d/1UHi3gCq-9f0qWLrNuv1o6EJ2j2qd42vv/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_the-ac3h^",
+        "Ac3h^ ",
+        "2005",
+        "Arena",
+        "CSS",
+        "Pretty sure this is just surf_arc_v7.2 with a few differences, unsure about the mapper",
+        "https://drive.google.com/file/d/1DZpYU2qFSAhJKgvmOsKcWY1l6JjBKYXE/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_the-gap",
+        "Mariowned",
+        "2004",
+        "Linear",
+        "CS 1.6",
+        "First ever surf map",
+        "https://drive.google.com/file/d/1uFdHVWb7K9Sxd05VQaP_4XsuqmA-qOse/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_the-gap_chang",
+        "Mariowned",
+        "2004",
+        "Linear",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1fGtWQGovMVG75YfoXPWy87I6bsgeejja/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_the-gap_distance",
+        "Mariowned",
+        "2004",
+        "Linear",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1JKMBZpWX98JY85fOdLs4XxK69FKUkZyi/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_the-gap_v2",
+        "Mariowned",
+        "2004",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1sS_sb542wamDYYDl08AtgTsMVHaFAsG-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_the-gap_v4",
+        "Mariowned  & Sqanto",
+        "2004",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1bslVWrDDji-QwDqTmF7xWG1EMhNUJn83/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_thing",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "100% A test map, can't even tell what it was supposed to be, most likely linear though",
+        "https://drive.google.com/file/d/1mFbUiJkbsiIjdj3mZEpm2LJVuCp4EHj5/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_tohumabohu5",
+        "MaZe",
+        "2006",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1R9ztGznZ5bZX4aNmiDGpz0dO-f8LQ1oQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_toonfalls_final",
+        "silent.nooB",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/16LdBK-4HzKmGXGgQhe5NNPaOISZDb_ig/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_trapsandtricks_final",
+        "BlakFantom",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1gYf2cwjKTYCvS_iv3WcqZ1OplrllvVaO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_tribute",
+        "Gaiy",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1z07YE86KF8kamwRcfAKPhX4artW5qYm4/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_tube_v2",
+        "Kaos4u",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1UyVI_DGvPWUa8HVi1JgxuHhmK5u6a7Pe/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_tunnel_f",
+        "|SURFOIDS|F3r3T",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1LL59MRWKfl1hEq3gcDyAs_wpVkfmNSAA/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_twosides_v1",
+        "Greenskull",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1KNAKgk4QPfMnLUEAhXbCilzuXB-ZI51o/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_twosides_v2",
+        "Greenskull",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1OEmaZ13nnb4sSLHTUXV2Ia9sR0O9sn7P/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_underground_b1",
+        "ArchAngel",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/1vIxGmnvrJrgzs8wcQB85e0krBD3QhLet/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_unknown",
+        "Schizophrenic",
+        "2005",
+        "Linear",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1ErM69KmjU8gBBB0YaBKmORat5HylTDic/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_untildeath",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "Looks like a test map, its just another map with teles at the end so it loops over and over",
+        "https://drive.google.com/file/d/13WNXhzHlevsQGGTQGyVdg4hUtD6buvti/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_urban_b1",
+        "Simplysped",
+        "2005",
+        "Arena",
+        "CSS",
+        "This or surf_egypt_css would've been the first surf maps on CSS",
+        "https://drive.google.com/file/d/1A4cT6Add5xOMFfSHATGzGUOowh3SW72r/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_urban_b2",
+        "Simplysped",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1gsYeYTR1WJFSzjKiFJv0FuZgxDZEbFES/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_urban_b3",
+        "Simplysped",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1K4LWNKkYXoHZYSBJfrT9Hxzo4Jrs-7RH/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_urban_final",
+        "Vexer",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/18zcOQK8LnXe5i1YNdd4jQ6J2fM-3wH7D/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_view",
+        "Killjoy",
+        "2006",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1WBdJ2ZRtuQsDU4Q0U_FLCjrgfuQQ-aEY/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_viper",
+        "Viper",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1qaLygNjBVhlG4VNghEsuqKG863NhljEU/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_vlr",
+        "RuffianSoldier",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1CxeNYlSuSSC6aR--0_Qy_pfwTzoKEHbj/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_vlr_v2",
+        "RuffianSoldier",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1vclRSk-QJs-lq5yYVHGJtq-DoXDoVZ4-/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_volcano_b1",
+        "philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_volcano_v2",
+        "philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_volcano_v3",
+        "philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1iAecQmeepfs8Np7JrUT0ZpzQ6NwKBO5x/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_volcano_v4",
+        "philibuster",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1WhXKzbVE7qRN_VQUwF99ExJ6d5bJmEcF/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_wacky_watermelons_b1",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "Beta version of surf_melons",
+        "https://drive.google.com/file/d/14MZhZLfckhHBdf6o5cDtdOuZzg4GWr0Z/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_wacky_watermelons_b3",
+        "Kaos4u",
+        "2006",
+        "Arena",
+        "CSS",
+        "Beta version of surf_melons",
+        "https://drive.google.com/file/d/1GA1sCZLKrfJlQKlPqWAEafbp4yRo3JE0/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_water-run2",
+        "Mariowned",
+        "2005",
+        "Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1T8tZIqrVdjCzH2aqFVcZlpCTi3CHaLFM/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_waterslide",
+        "Mariowned",
+        "2004",
+        "Arena + Staged",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1tGeStJ3Ql2ZWiQ_e_fpx_CzZsjkz4DgI/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_wavelength_beta",
+        "Roosta",
+        "2006",
+        "",
+        "CSS",
+        "Thanks to Yoshi and Kaos4u.  Likely only exists on this site.",
+        "https://drive.google.com/file/d/135P8IJAIaYprWt5eiBctHh72NskOAG2v/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_woodward_suicide",
+        "Computer Zombie & sgtkickurass",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1DGfUYC2-huKvvFAeeeFn7mtF19flZC4v/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_woodward_v2",
+        "Computer Zombie",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1v7Kvqz4fMQcwGaV_l_MYwH1rEd4jDhGJ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_woodward_v4",
+        "Computer Zombie",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/163C2w7YzE2svJ5ITzLpJH0Lxb83YDnGQ/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_world-war2",
+        "Unknown",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1VBnMct6wsv_FDhwdNqIdMdtISq6Jh-gn/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_wurf_toonjungle",
+        "silent.nooB",
+        "2005",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1OpZERDX1k8rbXGXG4SBJzOrbWlOj3DYv/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_xtreme",
+        "Fire",
+        "2007",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1l89PgHUPatYTmPvZ59JHUlDCWnOqPpVe/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_xtremefreestyle",
+        "B-K.::|HaX^::.",
+        "2007",
+        "Arena",
+        "CS 1.6",
+        "",
+        "https://drive.google.com/file/d/1ANJiLpt83i-c_znrNnITvfcEpJEaO8wk/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_xxl_towers",
+        "Cepo",
+        "2006",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1xItz9A69i0BGKv5PQiusMR1yDyL2yXOL/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_xxx_betav1",
+        "Striker5 & xTk^",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1P4r3PNgPGqbmC7bljRamJxCgCMiTFajO/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_ya-mum",
+        "Unknown",
+        "2005",
+        "Linear",
+        "CS 1.6",
+        "Pretty basic map.  Surf to the end, push the button, then you die hilariously",
+        "https://drive.google.com/file/d/1DyCLnYUDAzNcKeC9ml9NPETWd0TnH1MK/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_yeildover",
+        "^SurfNZ^Spartan",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1xKMNREEQFTVuKe_RfK6V98Oj97eDPTs3/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_zombie",
+        "Computer Zombie",
+        "2005",
+        "Arena",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1wP0I9oVG97JeRnBHLyVQ1Ro4TznhCOb8/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_zones",
+        "SierraMist",
+        "2005",
+        "Staged",
+        "CSS",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_zones_Final",
+        "SierraMist",
+        "2005",
+        "Staged",
+        "CSS",
+        "",
+        "https://drive.google.com/file/d/1-FdMKYE8J41twA2jhGge6Vp-r8_QMPgD/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "surf_zones_v2",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "surf_zones_Xtreme",
+        "SierraMist",
+        "2005",
+        "Staged",
+        "CSS",
+        "Found! 07/02/2024",
+        "https://drive.google.com/file/d/1WBCdEi5rzW7wiRQoieHpjx5fwT4BFnY8/view?usp=drive_link",
+        "test full"
+    ],
+    [
+        "surf_zones_Xtreme!",
+        "Unknown",
+        "",
+        "",
+        "",
+        "No bsp",
+        "",
+        "test full"
+    ],
+    [
+        "vlr_water_cubes",
+        "RuffianSoldier",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "Test map, no ramps at all, it's just water cubes inside eachother",
+        "https://drive.google.com/file/d/1zw4WQP36G-HRM3gev1jts4Vxv4Kg6Gwu/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "wave_of_surf",
+        "U.Portnoy/Wave of flame",
+        "2005",
+        "Staged",
+        "CSS",
+        "U.Portnoy = Wof-",
+        "https://drive.google.com/file/d/1lqttGyVlxxJT9FEFgC2IjFI0_MyGfxsp/view?usp=share_link",
+        "test full"
+    ],
+    [
+        "wsurf_randomised",
+        "Blivious",
+        "2005",
+        "Staged",
+        "CSS",
+        "Unsure of the mapper name since it's kind of broken... test",
+        "https://drive.google.com/file/d/1vs1_JfJqMltn1rtZYSsiWqMgc-PRa996/view?usp=share_link",
+        "test full"
+    ]
+]
