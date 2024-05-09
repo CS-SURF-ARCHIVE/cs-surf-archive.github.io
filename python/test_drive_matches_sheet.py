@@ -6,45 +6,13 @@
 
 import config
 import json_as_list
-import gtoken
 import write_missing_maps_to_sheet
 
 from python.json_as_list import load_as_list
 from googleapiclient.discovery import build
 
-SHEET_WRITE = True # if false, does not write to sheet, test only
 DRIVE_FOLDER_ID = config.DRIVE_DRIVE_FOLDER_ID
 SHEET_DATA_FILE_NAME = config.SHEET_DATA_FILE_NAME
-
-def get_drive_items():
-    creds = gtoken.get()
-    page_size = 1000
-    drive_service = build('drive', 'v3', credentials=creds)
-    query = f"'{DRIVE_FOLDER_ID}' in parents and trashed = false"
-    page_token = None
-
-    drive_items = []
-
-    while True:
-        results = drive_service.files().list(q=query, fields="nextPageToken, files(id, name, mimeType)", pageSize=page_size, pageToken=page_token).execute()
-
-        items = results.get('files', [])
-        if not items:
-            print('No files or folders found.')
-        else:
-            for item in items:
-                # Check if the item is a file (not a folder)
-                if item.get('mimeType') != 'application/vnd.google-apps.folder':
-                    drive_items.append(item)  # Only add files to the drive_items list
-                else:
-                    print("non-file found ", item)
-
-        # Check if there are more pages of results
-        page_token = results.get('nextPageToken')
-        if not page_token:
-            break
-    
-    return drive_items
 
 def compare_sheet_and_drive():
     drive_items = get_drive_items()

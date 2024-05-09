@@ -10,7 +10,7 @@ from googleapiclient.errors import HttpError
 
 SHEET_ID = config.SHEET_ID
 RANGE_NAME = config.RANGE_NAME
-SHEET_DATA_FILE_NAME = config.SHEET_DATA_FILE_NAME
+SHEET_DATA_FILE_PRE_PROCESSING = config.SHEET_DATA_FILE_PRE_PROCESSING
 
 def get_data():
 
@@ -32,10 +32,10 @@ def get_data():
     except HttpError as err:
         print(err)
 
-    with open(SHEET_DATA_FILE_NAME, 'w') as json_file:
+    with open(SHEET_DATA_FILE_PRE_PROCESSING, 'w') as json_file:
         json.dump(values, json_file)
 
-    print(f'Sheet data saved to {SHEET_DATA_FILE_NAME}')
+    print(f'Sheet data saved to {SHEET_DATA_FILE_PRE_PROCESSING}')
 
 if __name__ == "__main__":
     get_data()

@@ -1,16 +1,13 @@
 import get_sheet_data
+import update_json_and_sheet
+import set_sheet_data
 import generate_css_html
 import generate_other_html
 import generate_overflow_html
 import platform
 import subprocess
-import test_mapname_filename_match
-import test_drive_matches_sheet
-import write_screenshots_to_sheet
 import re
 
-TESTS_ENABLED = True
-WRITE_TO_SHEET = True
 
 def main():
     data = get_sheet_data.get_data()

@@ -9,51 +9,14 @@
 import os
 import get_sheet_data
 import gtoken
-import sheet_writer
+import set_sheet_data
 
 from googleapiclient.discovery import build
 
 SHEET_WRITE = True # if false, does not write to sheet, test only, used for local script test
 
-def get_drive_items():
-    creds = gtoken.get()
-    page_size = 1000
-    drive_service = build('drive', 'v3', credentials=creds)
-
-    screenshots_folder_id = '1pHuvPJZn0UPAd4mn8y5coXBDRV3mKTFu'
-    screenshots_query = f"'{screenshots_folder_id}' in parents and trashed = false"
-    
-    page_token = None
-    count = 0
-
-    screenshot_filenames = []
-
-    while True:
-        # Call the Files:list method to retrieve a page of files and folders in the specified folder
-        results = drive_service.files().list(q=screenshots_query, fields="nextPageToken, files(id, name, mimeType)", pageSize=page_size, pageToken=page_token).execute()
-
-        # Print the list of files and folders in the current page
-        items = results.get('files', [])
-        if not items:
-            print('No files or folders found.')
-        else:
-            for item in items:
-                # Check if the item is a file (not a folder), so only get items in root dir
-                if item.get('mimeType') != 'application/vnd.google-apps.folder':
-                    #print(item)
-                    screenshot_filenames.append(item)  # Only add files to the drive_items list
-                else:
-                    print("non-file found ", item)
-
-        # Check if there are more pages of results
-        page_token = results.get('nextPageToken')
-        if not page_token:
-            break
-    
-    return screenshot_filenames
-
 def get_mapnames_and_screenshots():
-    screenshots = get_drive_items()
+    screenshots = get_drive_items() #removed this function and split it out to get_drive_items
 
     link_pre = "https://drive.google.com/uc?export=view&id="
 
@@ -98,7 +61,7 @@ def generate_rows_with_screenshot():
                     map_item[7] = screenshot[1]
                     write_num += 1
                     print("writing at index ", index, " -- ", map_item)
-                    sheet_writer.update_row(index, map_item)
+                    set_sheet_data.update_row(index, map_item)
                 elif not SHEET_WRITE:
                     map_item[7] = screenshot[1]
                     print("sheet write off, but ", index, " -- ", map_item)
@@ -110,7 +73,7 @@ def generate_rows_with_screenshot():
                 if SHEET_WRITE and map_item[7] != missing_screenshot_image_url:
                     map_item[7] = missing_screenshot_image_url
                     print("writing at index ", index, " -- ", map_item)
-                    sheet_writer.update_row(index, map_item)
+                    set_sheet_data.update_row(index, map_item)
                 elif not SHEET_WRITE:
                     map_item[7] = missing_screenshot_image_url
                     print("sheet write off, but ", index, " -- missing screenshot for ", map_item[0])
