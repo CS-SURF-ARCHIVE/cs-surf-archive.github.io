@@ -38,9 +38,7 @@ def get_drive_items(folder_id, output_file_name):
             else:
                 for item in items:
                     if item.get('mimeType') != 'application/vnd.google-apps.folder':
-                        screenshot_filenames.append(item)  # Only add files to the drive_items list
-                    else:
-                        print("non-file found ", item)
+                        screenshot_filenames.append(item)  # Only add files to the drive_items list.  otherwise folders can show up as entries
 
             # Check if there are more pages of results
             page_token = results.get('nextPageToken')
@@ -53,7 +51,7 @@ def get_drive_items(folder_id, output_file_name):
     with open(output_file_name, 'w') as json_file:
         json.dump(items, json_file)
     
-    print(f'Data saved to {output_file_name}')
+    print(f'Drive data saved to {output_file_name}')
 
 if __name__ == "__main__":
     get_screenshot_items()

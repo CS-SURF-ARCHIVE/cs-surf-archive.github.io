@@ -3,7 +3,7 @@ import os
 import json
 
 #SHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig' # prod sheet ID
-SHEET_ID = '1zlN5SnHZcB7ZyqhoZ9P32mzgxtjKmUR53n3R7H8FgnA' # test sheet ID
+SHEET_ID = '1BA2uDfbVVNy9TTqLnhDBkG76nzLpNtENUB9hel9Fbas' # test sheet ID
 RANGE_NAME = "'Surf maps'" # name of the sheet, has to be in ''s because of space in name
 
 MAPS_FOLDER_ID = '1BwsG6pIsRFiCGGG7ppiLSJ0NbLv7_Xv4'
