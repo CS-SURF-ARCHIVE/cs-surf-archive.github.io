@@ -2,38 +2,23 @@
 cs-surf-archive.github.io
 
 ### Generating the website
-- Generate credentials for Google Sheets API
-- Run site_generator.py
+- Create a credentials.json by:
+1. In the Google Cloud console, go to Menu menu > IAM & Admin > Service Accounts. Go to Service Accounts.
+2. Select your service account.
+3. Click Keys > Add key > Create new key.
+4. Select JSON, then click Create.
+5. Click Close.
+- Place it in the root folder
+- Run generate_website.py
+- Authenticate in browser to generate token.json (only cs-surf-archive@gmail.com has access)
+- Watch the magic happen
 
-### How generate_website.py works
-- Imports get_sheet_data.py
-- Stores all data from the sheet in a variable
-- Calls generate_css_html, generate_overflow_html, and generate_other_html to
-- - split out css, other, and overflow maps into their own pages
-- - build the HTML for each page
-- runs tests if TESTS_ENABLED == True
-- writes to sheet if WRITE_SHEET == True
-
-### test_drive_matches_sheet
-- checks if all files in the drive have entries in the sheet
-- if it doesnt, it appends mapnames with download links to end of spreadsheet
-  
-### test_mapname_filename_match
-- ensures the map name on the sheet matches the file name on drive
-
-### write_screenshots_to_sheet
-- searches drive for screenshots, matches them with maps in the sheet based on filename, and writes the screenshot link to the sheet.
-
-### insert_missing_maps
-- searches the drive for maps that don't exist in the sheet, creates mapname only entries in the sheet, then alphabetizes the sheet.
-  
-### other notes
-- the goal of this is to be able to generate a website, without spending all my time doing it.  The scope has grown, and the original method is showing growing pains.
-- get_sheet_data.py, when called by generate_website.py, generates the token for the API
-- if scopes are changed, token needs to be regenerated
-- currently the only user with api access is cs-surf-archive@gmail.com
-- each generate_*_html file contains a unique string appended to the end of preboiler to make a unique link line per page
-- gtoken.py gets the credentials for Google API.  Delete token.json locally for it to refresh
-- the 3 generate_*_html.py files are all the same except for 3 lines lol.  if I have to mess with the pages again I'll come up with a more graceful solution.
-- Instead of getting sheet data multiple times, then rewriting per cell, a good rewrite would be to modify it all locally then rewrite per sheet.
-- After adding a file to the drive, sheet has to be regenerated multiple times.  Don't have time to fix.
+### WELL HOWS IT WORK
+- `config.py` contains almost all of the important variables
+- `get_sheet_data.py` calls the Google API to get the Rare maps sheet in JSON format
+- `get_drive_data.py` calls the Google API to items from Screenshots and Maps folders in JSON format
+- `update_json_and_sheet.py` combines `sheet_data_pre_processing`, `screenshots_data.json`, and `maps_data.json`
+- `set_sheet_data.py` can update either just a row or a whole sheet.  Whole sheet is only in use for now.  Row updates = too many API calls.
+- This ensures the data in the drive always matches the sheet
+- `generate_website.py` pulls everything together and generates HTML using `generate_css_html.py`, `generate_other_html.py`, and `generate_overflow_html.py` as templates
+- `gtoken.py` is used to generate the credentials for APIs.
