@@ -18,7 +18,6 @@ def build_table_other(collapsible_list_other_dl, collapsible_list_other_no_dl):
 
 def other_html_boilerplate():
     preboilersrc = "html_boilerplate/pre.html"
-    print(preboilersrc)
     postboilersrc = "html_boilerplate/post.html"
     other_end_boiler = '<h3><a href=\"index.html\">Source Maps</a>&emsp;&emsp;CS 1.6 or Unknown Maps&emsp;&emsp;<a href=\"overflow.html\">Overflow Maps</a></h3>'
 

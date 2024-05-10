@@ -7,7 +7,7 @@ import set_sheet_data
 
 MISSING_SCREENSHOT_ID = config.MISSING_SCREENSHOT_ID
 
-SHEET_DATA = config.get_sheet_data_from_json()
+SHEET_DATA = config.get_pre_processed_sheet_data_from_json()
 SCREENSHOTS_DATA = config.get_screenshot_data_from_json()
 MAPS_DATA = config.get_map_data_from_json()
 
@@ -32,10 +32,10 @@ def pad_rows():
     print("pad_rows function updated sheet with padded rows")
 
 # simple helper to strip .jpg or .bsp or .png or whatever else after the . in an id from json
-def split_filename_and_extension(filename):
+# also i have to put this stupid handler in there in case there's 2 dots.
+def split_filename_from_extension(filename):
     filename = os.path.splitext(filename)[0]
-    file_extension = os.path.splitext(filename)[1]
-    return filename, file_extension
+    return filename
 
 def build_formatted_map_link_from_id(map_id, map_name):
     # builds the map link as the website expects it fom the id
@@ -54,25 +54,26 @@ def build_formatted_screenshot_link_from_id(screenshot_id, map_name):
 
 def build_formatted_jump_link(map_name):
     # builds the jump link as the website expects it from the map name
-    formatted_jump_link = (f'<b>site link:</b><br />&emsp;<a href="#{map_name}">{map_name}</a>')
+    formatted_jump_link = (f'<a href="#{map_name}">{map_name}</a>')
     return formatted_jump_link
 
 def match_screenshots_and_downloads_to_sheet():
     maps_with_download_but_no_screenshot =[]
 
     for item in SHEET_DATA[1:]:
-        map_name_from_sheet, _ = split_filename_and_extension(item[MAP_NAME_INDEX])
+        map_name_from_sheet = item[MAP_NAME_INDEX]
         
         # Search for a match in SCREENSHOTS_DATA
         for screenshot in SCREENSHOTS_DATA:
-            screenshot_name, _ = split_filename_and_extension(screenshot['name']) 
-            if screenshot_name.lower() == map_name_from_sheet.lower():
+            screenshot_name = split_filename_from_extension(screenshot['name']) 
+            if str(screenshot_name.lower()) == map_name_from_sheet.lower():
                 item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(screenshot['id'], map_name_from_sheet)
                 break
 
         # Search for a match in MAPS_DATA
         for map_item in MAPS_DATA:
-            map_name_from_drive, _ = split_filename_and_extension(map_item['name'])
+            map_name_from_drive = split_filename_from_extension(map_item['name'])
+            
             if map_name_from_drive.lower() == map_name_from_sheet.lower():
                 item[MAP_DOWNLOAD_INDEX] = build_formatted_map_link_from_id(map_item['id'], map_name_from_sheet)
                 break
@@ -101,21 +102,21 @@ def match_screenshots_and_downloads_to_sheet():
 
 def add_jump_links():
     for item in SHEET_DATA[1:]:
-        item[JUMP_LINK_INDEX] = (f'<b>site link:</b><br />&emsp;<a href="#{item[MAP_NAME_INDEX]}">{item[MAP_NAME_INDEX]}</a>')
+        item[JUMP_LINK_INDEX] = build_formatted_jump_link(item[MAP_NAME_INDEX]) # use the map name to build a jump link
     print("Added jump links")
 
-def write_to_sheet():
+def write_processed_json_to_file():
     with open(SHEET_DATA_FILE_POST_PROCESSING, 'w') as f:
         json.dump(SHEET_DATA, f, indent=4)
-    
-    set_sheet_data.update_sheet(SHEET_DATA)
 
     print("Data updated and saved to", SHEET_DATA_FILE_POST_PROCESSING)
 
-    # set_sheet_data.update_sheet(SHEET_DATA)
+def write_processed_json_to_sheet():
+    set_sheet_data.update_sheet(SHEET_DATA)
 
 if __name__ == "__main__":
     pad_rows()
     match_screenshots_and_downloads_to_sheet()
     add_jump_links()
-    write_to_sheet()
+    write_processed_json_to_file()
+    write_processed_json_to_sheet()

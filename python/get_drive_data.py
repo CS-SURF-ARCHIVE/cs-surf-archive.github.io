@@ -14,6 +14,12 @@ MAPS_DATA_FILE_NAME = config.MAPS_DATA_FILE_NAME
 # list of folders with their associated output file name
 FOLDER_AND_FILE_NAME_PAIRS = [(SCREENSHOTS_FOLDER_ID, SCREENSHOTS_DATA_FILE_NAME), (MAPS_FOLDER_ID, MAPS_DATA_FILE_NAME)]
 
+def get_screenshot_items():
+    get_drive_items(SCREENSHOTS_FOLDER_ID, SCREENSHOTS_DATA_FILE_NAME)
+
+def get_map_items():
+    get_drive_items(MAPS_FOLDER_ID, MAPS_DATA_FILE_NAME)
+
 def get_drive_items(folder_id, output_file_name):
     creds = gtoken.get()
     page_size = 1000
@@ -50,5 +56,5 @@ def get_drive_items(folder_id, output_file_name):
     print(f'Data saved to {output_file_name}')
 
 if __name__ == "__main__":
-    for folder_id, output_file_name in FOLDER_AND_FILE_NAME_PAIRS:
-        get_drive_items(folder_id, output_file_name)
+    get_screenshot_items()
+    get_map_items()

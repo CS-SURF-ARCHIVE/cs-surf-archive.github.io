@@ -3,7 +3,7 @@ import os
 import json
 
 #SHEET_ID = '1om84pRBMUvmVxD6ckd4u9imY9qGa1vMNPZ79WiKz9ig' # prod sheet ID
-SHEET_ID = '1zlN5SnHZcB7ZyqhoZ9P32mzgxtjKmUR53n3R7H8FgnA' # testgit s sheet ID
+SHEET_ID = '1zlN5SnHZcB7ZyqhoZ9P32mzgxtjKmUR53n3R7H8FgnA' # test sheet ID
 RANGE_NAME = "'Surf maps'" # name of the sheet, has to be in ''s because of space in name
 
 MAPS_FOLDER_ID = '1BwsG6pIsRFiCGGG7ppiLSJ0NbLv7_Xv4'
@@ -25,10 +25,15 @@ MAPS_DATA_FILE_NAME =  os.path.join(DATA_FOLDER, 'maps_data.json')
 # defining them as gets allows me to dynamically call them to get their values
 # instead of always running and possibly erroring out
 
-def get_sheet_data_from_json():
+def get_pre_processed_sheet_data_from_json():
     with open(SHEET_DATA_FILE_PRE_PROCESSING, 'r') as f:
-        SHEET_DATA = json.load(f)
-    return SHEET_DATA
+        SHEET_DATA_PRE_PROCESSING = json.load(f)
+    return SHEET_DATA_PRE_PROCESSING
+
+def get_post_processed_sheet_data_from_json():
+    with open(SHEET_DATA_FILE_POST_PROCESSING, 'r') as f:
+        SHEET_DATA_POST_PROCESSING = json.load(f)
+    return SHEET_DATA_POST_PROCESSING
 
 def get_screenshot_data_from_json():
     with open(SCREENSHOTS_DATA_FILE_NAME, 'r') as f:
@@ -42,7 +47,7 @@ def get_map_data_from_json():
 
 def get_indexes_of_columns():
     indexes = {}
-    sheet_data = get_sheet_data_from_json()
+    sheet_data = get_pre_processed_sheet_data_from_json()
     for index, item in enumerate(sheet_data[0]):
         indexes[item] = index
     return indexes
@@ -66,6 +71,11 @@ def get_type_index():
     indexes = get_indexes_of_columns()
     TYPE_INDEX = indexes.get("type")
     return TYPE_INDEX
+
+def get_game_index():
+    indexes = get_indexes_of_columns()
+    GAME_INDEX = indexes.get("game")
+    return GAME_INDEX
 
 def get_notes_index():
     indexes = get_indexes_of_columns()
