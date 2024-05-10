@@ -13,7 +13,6 @@ RANGE_NAME = config.RANGE_NAME
 SHEET_DATA_FILE_PRE_PROCESSING = config.SHEET_DATA_FILE_PRE_PROCESSING
 
 def get_data():
-
     creds = gtoken.get()
 
     try:
