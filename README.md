@@ -22,3 +22,7 @@ cs-surf-archive.github.io
 - This ensures the data in the drive always matches the sheet
 - `generate_website.py` pulls everything together and generates HTML using `generate_css_html.py`, `generate_other_html.py`, and `generate_overflow_html.py` as templates
 - `gtoken.py` is used to generate the credentials for APIs.
+
+### todo (maybe)
+- Print if map exist in drive but not sheet
+- Add entry to sheet if map exist in drive but not sheet
