@@ -8,13 +8,15 @@ import set_sheet_data
 MISSING_SCREENSHOT_ID = config.MISSING_SCREENSHOT_ID
 
 SHEET_DATA = config.get_pre_processed_sheet_data_from_json()
-SCREENSHOTS_DATA = config.get_screenshot_data_from_json()
+SCREENSHOTS_DATA_LOCAL = config.get_screenshot_data_from_local()
 MAPS_DATA = config.get_map_data_from_json()
 
 MAP_NAME_INDEX = config.get_map_name_index()
 SCREENSHOT_INDEX = config.get_screenshot_index()
 MAP_DOWNLOAD_INDEX = config.get_map_download_index()
 JUMP_LINK_INDEX = config.get_jump_link_index()
+
+IMG_FOLDER = config.IMG_FOLDER
 
 SHEET_DATA_FILE_POST_PROCESSING = config.SHEET_DATA_FILE_POST_PROCESSING
 
@@ -43,13 +45,10 @@ def build_formatted_map_link_from_id(map_id, map_name):
     formatted_site_link = f'<a href="{drive_link}">{map_name}.zip</a>' # don't feel like calling drive api every time to get file type.  it's always zip for downloads
     return formatted_site_link
 
-def build_formatted_screenshot_link_from_id(screenshot_id, map_name):
+def build_formatted_screenshot_link_from_id(map_name, screenshot_file_name):
     # builds the screenshot link as the website expects it from the id  
-    # https://lienuc.com/ - Jan 2024 google broke how embeds worked
-    # so, strip IDs from full URL (item) and run through lienuc
-    lienuc_image_url = f'crossorigin="anonymous" src="http://drive.lienuc.com/uc?id={screenshot_id}"'  
     img_alt = f'{map_name}'
-    formatted_screenshot_link = f'<img {lienuc_image_url} alt="{img_alt}" class="ImgThumbnail" loading="lazy">'
+    formatted_screenshot_link = f'<img src="{IMG_FOLDER}/{screenshot_file_name}" alt="{img_alt}" class="ImgThumbnail" loading="lazy">'
     return formatted_screenshot_link
 
 def build_formatted_jump_link(map_name):
@@ -64,10 +63,11 @@ def match_screenshots_and_downloads_to_sheet():
         map_name_from_sheet = item[MAP_NAME_INDEX]
         
         # Search for a match in SCREENSHOTS_DATA
-        for screenshot in SCREENSHOTS_DATA:
-            screenshot_name = split_filename_from_extension(screenshot['name']) 
-            if str(screenshot_name.lower()) == map_name_from_sheet.lower():
-                item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(screenshot['id'], map_name_from_sheet)
+        for screenshot_file_name in SCREENSHOTS_DATA_LOCAL:
+            # screenshot_name_no_extension effectively becomes map_name
+            screenshot_name_no_extension = split_filename_from_extension(screenshot_file_name) 
+            if str(screenshot_name_no_extension.lower()) == map_name_from_sheet.lower():
+                item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(screenshot_name_no_extension, screenshot_file_name)
                 break
 
         # Search for a match in MAPS_DATA
@@ -84,14 +84,14 @@ def match_screenshots_and_downloads_to_sheet():
             
         # LETS EXPLAIN THIS ONE A BIT
         # if the map download index has drive.google.com in it (meaning it has a link)
-        # and the screenshot index doesn't have drive.lienuc in it (meaning there is no link)
+        # and the screenshot index doesn't have "img" in it (meaning there is no link)
         #   this can occur if a map is manually added
         # or the missing map ID is in the screenshot index (meaning there's already a missing screenshot link)
         #   this can occur if the sheet update code has been run
         # then we know we have a map with a download but no screenshot
         # so print about it and overwrite the cell with the missing image link
             
-        if "drive.google.com" in item[MAP_DOWNLOAD_INDEX] and ("drive.lienuc" not in item[SCREENSHOT_INDEX] or MISSING_SCREENSHOT_ID in item[SCREENSHOT_INDEX]):
+        if "drive.google.com" in item[MAP_DOWNLOAD_INDEX] and ("img" not in item[SCREENSHOT_INDEX] or MISSING_SCREENSHOT_ID in item[SCREENSHOT_INDEX]):
             item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, item[MAP_NAME_INDEX])
             maps_with_download_but_no_screenshot.append(item[MAP_NAME_INDEX])
         elif "drive.google.com" not in item[MAP_DOWNLOAD_INDEX]:

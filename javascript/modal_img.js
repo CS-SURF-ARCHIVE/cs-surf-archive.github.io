@@ -6,7 +6,6 @@ Array.from(document.querySelectorAll(".ImgThumbnail")).forEach(item => {
     item.addEventListener("click", event => {
         modalEle.style.display = "block";
         modalImage.src = event.target.src;
-        modalImage.setAttribute("crossorigin", "anonymous"); // this is added in conjunction with build_lien_uc in generate_website.py
         captionText.innerHTML = event.target.alt;
     });
 });
