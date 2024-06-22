@@ -14,6 +14,7 @@ MISSING_SCREENSHOT_ID = '1vS_uStVC1n2-63uDx-h5r8ZaSPbohU5W'
 # mainly for debug purposes
 
 DATA_FOLDER = 'data'
+IMG_FOLDER = 'img'
 SHEET_DATA_FILE_PRE_PROCESSING = os.path.join(DATA_FOLDER, 'sheet_data_pre_processing.json')
 SHEET_DATA_FILE_POST_PROCESSING = os.path.join(DATA_FOLDER, 'sheet_data_post_processing.json')
 SCREENSHOTS_DATA_FILE_NAME = os.path.join(DATA_FOLDER, 'screenshots_data.json')
@@ -39,6 +40,10 @@ def get_screenshot_data_from_json():
     with open(SCREENSHOTS_DATA_FILE_NAME, 'r') as f:
         SCREENSHOTS_DATA = json.load(f)
     return SCREENSHOTS_DATA
+
+def get_screenshot_data_from_local():
+    SCREENSHOTS_DATA_LOCAL = os.listdir(IMG_FOLDER)
+    return SCREENSHOTS_DATA_LOCAL
 
 def get_map_data_from_json():
     with open(MAPS_DATA_FILE_NAME, 'r') as f:
