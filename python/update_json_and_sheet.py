@@ -95,7 +95,7 @@ def match_screenshots_and_downloads_to_sheet():
             item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, item[MAP_NAME_INDEX])
             maps_with_download_but_no_screenshot.append(item[MAP_NAME_INDEX])
         elif "drive.google.com" not in item[MAP_DOWNLOAD_INDEX]:
-            item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, item[MAP_NAME_INDEX])
+            item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, MISSING_SCREENSHOT_ID) # just pass it twice since it's the image name and alt text
 
     print("maps with download but no screenshot: ", maps_with_download_but_no_screenshot)
     print(len(maps_with_download_but_no_screenshot), "total maps with download but no screenshot")
