@@ -8,7 +8,7 @@ RANGE_NAME = "'Surf maps'" # name of the sheet, has to be in ''s because of spac
 
 MAPS_FOLDER_ID = '1BwsG6pIsRFiCGGG7ppiLSJ0NbLv7_Xv4'
 SCREENSHOTS_FOLDER_ID = '1pHuvPJZn0UPAd4mn8y5coXBDRV3mKTFu'
-MISSING_SCREENSHOT_ID = '1vS_uStVC1n2-63uDx-h5r8ZaSPbohU5W'
+MISSING_SCREENSHOT_ID = 'missing.jpg'
 
 # 2 files for sheet json - pre and post processing
 # mainly for debug purposes

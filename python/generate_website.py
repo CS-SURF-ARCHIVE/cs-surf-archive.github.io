@@ -9,7 +9,6 @@ import platform
 import subprocess
 import re
 
-SHEET_DATA = config.get_post_processed_sheet_data_from_json()
 MAP_NAME_INDEX = config.get_map_name_index()
 MAP_DOWNLOAD_INDEX = config.get_map_download_index()
 SCREENSHOT_INDEX = config.get_screenshot_index()
@@ -108,7 +107,8 @@ if __name__ == "__main__":
     print("==========BUILDING WEBSITE PAGES==========")
     print("")
 
-    css_dl, css_no_dl, other_dl, other_no_dl, overflow = create_collapsibles(SHEET_DATA) # get variables for all collapsibles
+    processed_sheet_data = config.get_post_processed_sheet_data_from_json() # get data after it's all been modified
+    css_dl, css_no_dl, other_dl, other_no_dl, overflow = create_collapsibles(processed_sheet_data) # get variables for all collapsibles
     generate_css_html.build(css_dl, css_no_dl) # generate css HTML page (index.html)
     print("built index.html")
     generate_other_html.build(other_dl, other_no_dl) # generate other maps HTML page (other.html)
