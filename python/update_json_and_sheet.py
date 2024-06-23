@@ -6,6 +6,7 @@ import set_sheet_data
 # variables set strictly for visibility and readability
 
 MISSING_SCREENSHOT_ID = config.MISSING_SCREENSHOT_ID
+LEGACY_MISSING_SCREENSHOT_ID = config.LEGACY_MISSING_SCREENSHOT_ID
 
 SHEET_DATA = config.get_pre_processed_sheet_data_from_json()
 SCREENSHOTS_DATA_LOCAL = config.get_screenshot_data_from_local()
@@ -91,10 +92,13 @@ def match_screenshots_and_downloads_to_sheet():
         # then we know we have a map with a download but no screenshot
         # so print about it and overwrite the cell with the missing image link
             
-        if "drive.google.com" in item[MAP_DOWNLOAD_INDEX] and ("img" not in item[SCREENSHOT_INDEX] or MISSING_SCREENSHOT_ID in item[SCREENSHOT_INDEX]):
-            item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, item[MAP_NAME_INDEX])
+        if "drive.google.com" in item[MAP_DOWNLOAD_INDEX] \
+        and ("img" not in item[SCREENSHOT_INDEX] \
+        or MISSING_SCREENSHOT_ID in item[SCREENSHOT_INDEX]
+        or LEGACY_MISSING_SCREENSHOT_ID in item[SCREENSHOT_INDEX]): # only needed to be ran once when converting from Drive to Github image host, leaving in though
+            item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, MISSING_SCREENSHOT_ID)
             maps_with_download_but_no_screenshot.append(item[MAP_NAME_INDEX])
-        elif "drive.google.com" not in item[MAP_DOWNLOAD_INDEX]:
+        elif "drive.google.com" not in item[MAP_DOWNLOAD_INDEX]: # assuming that if there's no download, there's no screenshot
             item[SCREENSHOT_INDEX] = build_formatted_screenshot_link_from_id(MISSING_SCREENSHOT_ID, MISSING_SCREENSHOT_ID) # just pass it twice since it's the image name and alt text
 
     print("maps with download but no screenshot: ", maps_with_download_but_no_screenshot)
