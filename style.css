@@ -1,21 +1,27 @@
 .collapsible {
-  background-color: rgb(151, 151, 151);
+  background-color: #666;
   color: white;
   cursor: pointer;
   padding: 7px;
   width: 90%;
   border: line-width=1px;
   border-style: solid;
-  border-color:rgb(82, 82, 82);
+  border-color: #333;
   text-align: left;
   outline: none;
   margin: 1px;
   font-size: 15px;
   padding-left: 2%;
-  padding-right 2% 
+  padding-right: 2%;
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  overflow: hidden; /* Hides the overflowed content */
+  text-overflow: ellipsis; /* Adds the ellipsis (...) when text overflows */
 }
 .active, .collapsible:hover {
   background-color: #555;
+  border: line-width=1px;
+  border-style: solid;
+  border-color: #222;
 }
 .content {
   padding: 1px;
@@ -23,18 +29,22 @@
   overflow: hidden;
   width: 90%;
   margin-left: 5%;
-  background-color: #f1f1f1;
+  background-color: rgb(185, 185, 185);
+  border: line-width=1px;
+  border-style: solid;
+  border-color: #777;
 }
 html {
-  background-color: #777;
+  background-color: #999;
 }
-h1 {
+h1, h3, p {
   color:black;
-  padding-left: 4%;
-}
-h3 {
-  color:black;
-  padding-left: 4%;
+  padding-left: 3%;
+  text-align: left;  /* Aligns the text to the left */
+  width: 90%; /* Adjust this percentage based on how wide you want the content */
+  margin: 0 auto; /* Centers the element itself horizontally */
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 img {
   width: 100%;
@@ -53,8 +63,11 @@ p {
 }
 table {
   align-self: left;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 3%;
-  width: 75%;
+  width: 90%;
+  table-layout: fixed;
 }
 th {
   color: black;
