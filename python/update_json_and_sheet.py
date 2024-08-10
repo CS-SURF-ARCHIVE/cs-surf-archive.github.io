@@ -1,3 +1,6 @@
+# note that this only modifies sheet_data_pre_processing.json
+# running this on its own will not get latest sheet data
+
 import json
 import config
 import os
@@ -25,14 +28,14 @@ SHEET_DATA_FILE_POST_PROCESSING = config.SHEET_DATA_FILE_POST_PROCESSING
 # so the indexes we got above will be pointing to indexes that don't exist in the item for that map's json
 # so we gotta pad it with empty values, so it can write.
 
-def pad_rows():
+def pad_columns():
     max_len = len(SHEET_DATA[0])
 
     for row in SHEET_DATA[1:]:
         diff = max_len - len(row)
-        if diff > 0:
+        if diff > 0 and diff < 10: # if diff = 10, it's a blank row.  so if this runs on a diff > 9, it inserts a blank row.
             row += [""] * diff
-    print("pad_rows function updated sheet with padded rows")
+            print(f'row {row} had incorrect padding and was fixed')
 
 # simple helper to strip .jpg or .bsp or .png or whatever else after the . in an id from json
 # also i have to put this stupid handler in there in case there's 2 dots.
@@ -109,6 +112,9 @@ def add_jump_links():
         item[JUMP_LINK_INDEX] = build_formatted_jump_link(item[MAP_NAME_INDEX]) # use the map name to build a jump link
     print("Added jump links")
 
+def sort_json():
+    SHEET_DATA[1:] = sorted(SHEET_DATA[1:], key=lambda x: x[0].lower())
+
 def write_processed_json_to_file():
     with open(SHEET_DATA_FILE_POST_PROCESSING, 'w') as f:
         json.dump(SHEET_DATA, f, indent=4)
@@ -119,8 +125,9 @@ def write_processed_json_to_sheet():
     set_sheet_data.update_sheet(SHEET_DATA)
 
 if __name__ == "__main__":
-    pad_rows()
+    pad_columns()
     match_screenshots_and_downloads_to_sheet()
     add_jump_links()
+    sort_json()
     write_processed_json_to_file()
     write_processed_json_to_sheet()

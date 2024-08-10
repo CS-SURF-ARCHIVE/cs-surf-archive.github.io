@@ -92,7 +92,7 @@ if __name__ == "__main__":
     print("==========COMBINING SHEET AND DRIVE JSONS==========")
     print("")
 
-    update_json_and_sheet.pad_rows() # pad rows if there are empties, so it's always correct length
+    update_json_and_sheet.pad_columns() # pad columns if there are empties, so row is always correct length
     update_json_and_sheet.match_screenshots_and_downloads_to_sheet() # match sheet data against screenshot and map drive json's, also format links for html
     update_json_and_sheet.add_jump_links() # build jump links for site
 

@@ -1764,6 +1764,18 @@
         "<a href=\"#surf_hills\">surf_hills</a>"
     ],
     [
+        "surf_hills2_d",
+        "Unknown",
+        "2005",
+        "Undetermined",
+        "CSS",
+        "",
+        "",
+        "<img src=\"img/surf_hills2_d.jpg\" alt=\"surf_hills2_d\" class=\"ImgThumbnail\" loading=\"lazy\">",
+        "<a href=\"https://drive.google.com/file/d/11HbvW7vimkm_H79I2GmeEZc6uVCaBt1A/view?usp=share_link\">surf_hills2_d.zip</a>",
+        "<a href=\"#surf_hills2_d\">surf_hills2_d</a>"
+    ],
+    [
         "surf_hills[1]_d",
         "Unknown",
         "2005",
@@ -1786,18 +1798,6 @@
         "<img src=\"img/surf_hills[2].jpg\" alt=\"surf_hills[2]\" class=\"ImgThumbnail\" loading=\"lazy\">",
         "<a href=\"https://drive.google.com/file/d/1XClM4QLOWE1IP4C2HGMaH76rI034lEMk/view?usp=share_link\">surf_hills[2].zip</a>",
         "<a href=\"#surf_hills[2]\">surf_hills[2]</a>"
-    ],
-    [
-        "surf_hills2_d",
-        "Unknown",
-        "2005",
-        "Undetermined",
-        "CSS",
-        "",
-        "",
-        "<img src=\"img/surf_hills2_d.jpg\" alt=\"surf_hills2_d\" class=\"ImgThumbnail\" loading=\"lazy\">",
-        "<a href=\"https://drive.google.com/file/d/11HbvW7vimkm_H79I2GmeEZc6uVCaBt1A/view?usp=share_link\">surf_hills2_d.zip</a>",
-        "<a href=\"#surf_hills2_d\">surf_hills2_d</a>"
     ],
     [
         "surf_hippy_v1",
@@ -3216,6 +3216,18 @@
         "<a href=\"#surf_raceway\">surf_raceway</a>"
     ],
     [
+        "surf_reach",
+        "Xorn",
+        "2005",
+        "",
+        "CSS",
+        "",
+        "",
+        "<img src=\"img/missing.jpg\" alt=\"missing.jpg\" class=\"ImgThumbnail\" loading=\"lazy\">",
+        "<a href=\"https://drive.google.com/file/d/1XNEyoKiYKk_H01IWTY2qTQJQvHzRrZHe/view?usp=share_link\">surf_reach.zip</a>",
+        "<a href=\"#surf_reach\">surf_reach</a>"
+    ],
+    [
         "surf_rebel_resistance",
         "ArchAngel & Lethalis",
         "2005",
@@ -3528,6 +3540,18 @@
         "<a href=\"#surf_sinsane\">surf_sinsane</a>"
     ],
     [
+        "surf_skate-extreme",
+        "Unknown",
+        "2006",
+        "Arena",
+        "CS 1.6",
+        "",
+        "",
+        "<img src=\"img/surf_skate-extreme.jpg\" alt=\"surf_skate-extreme\" class=\"ImgThumbnail\" loading=\"lazy\">",
+        "<a href=\"https://drive.google.com/file/d/1vNjq5AtL48qsThU58QnesEqMtJii303h/view?usp=share_link\">surf_skate-extreme.zip</a>",
+        "<a href=\"#surf_skate-extreme\">surf_skate-extreme</a>"
+    ],
+    [
         "surf_skate_park",
         "Flan",
         "2005",
@@ -3586,18 +3610,6 @@
         "<img src=\"img/surf_skate_v2.jpg\" alt=\"surf_skate_v2\" class=\"ImgThumbnail\" loading=\"lazy\">",
         "<a href=\"https://drive.google.com/file/d/1wsgd9iMahR7wKnBzc3ZkidrS3kMOiU_g/view?usp=share_link\">surf_skate_v2.zip</a>",
         "<a href=\"#surf_skate_v2\">surf_skate_v2</a>"
-    ],
-    [
-        "surf_skate-extreme",
-        "Unknown",
-        "2006",
-        "Arena",
-        "CS 1.6",
-        "",
-        "",
-        "<img src=\"img/surf_skate-extreme.jpg\" alt=\"surf_skate-extreme\" class=\"ImgThumbnail\" loading=\"lazy\">",
-        "<a href=\"https://drive.google.com/file/d/1vNjq5AtL48qsThU58QnesEqMtJii303h/view?usp=share_link\">surf_skate-extreme.zip</a>",
-        "<a href=\"#surf_skate-extreme\">surf_skate-extreme</a>"
     ],
     [
         "surf_skeet_se_b2d",
@@ -3708,18 +3720,6 @@
         "<a href=\"#surf_skycastle_07\">surf_skycastle_07</a>"
     ],
     [
-        "surf_skydiving_final",
-        "~Aes~Dynam!c",
-        "2005",
-        "Slide",
-        "CSS",
-        "",
-        "x",
-        "<img src=\"img/surf_skydiving_final.jpg\" alt=\"surf_skydiving_final\" class=\"ImgThumbnail\" loading=\"lazy\">",
-        "<a href=\"https://drive.google.com/file/d/1XwnVVrsHkz1GD3bg5aqRxFDyK23ZZbQG/view?usp=share_link\">surf_skydiving_final.zip</a>",
-        "<a href=\"#surf_skydiving_final\">surf_skydiving_final</a>"
-    ],
-    [
         "surf_skydiving-betterversion",
         "~Aes~Dynam!c",
         "2005",
@@ -3730,6 +3730,18 @@
         "<img src=\"img/surf_skydiving-betterversion.jpg\" alt=\"surf_skydiving-betterversion\" class=\"ImgThumbnail\" loading=\"lazy\">",
         "<a href=\"https://drive.google.com/file/d/1lrlgU3Im8psjuv-cwBa-3ZB-Qpd9H23r/view?usp=share_link\">surf_skydiving-betterversion.zip</a>",
         "<a href=\"#surf_skydiving-betterversion\">surf_skydiving-betterversion</a>"
+    ],
+    [
+        "surf_skydiving_final",
+        "~Aes~Dynam!c",
+        "2005",
+        "Slide",
+        "CSS",
+        "",
+        "x",
+        "<img src=\"img/surf_skydiving_final.jpg\" alt=\"surf_skydiving_final\" class=\"ImgThumbnail\" loading=\"lazy\">",
+        "<a href=\"https://drive.google.com/file/d/1XwnVVrsHkz1GD3bg5aqRxFDyK23ZZbQG/view?usp=share_link\">surf_skydiving_final.zip</a>",
+        "<a href=\"#surf_skydiving_final\">surf_skydiving_final</a>"
     ],
     [
         "surf_skylight_final_v1",
@@ -3888,18 +3900,6 @@
         "<a href=\"#surf_sniper\">surf_sniper</a>"
     ],
     [
-        "surf_sniper_v2_d",
-        "Elemental",
-        "2005",
-        "Arena",
-        "CSS",
-        "\"Remake of surf_sniper.\" Unclear if elemental made surf_sniper",
-        "",
-        "<img src=\"img/surf_sniper_v2_d.jpg\" alt=\"surf_sniper_v2_d\" class=\"ImgThumbnail\" loading=\"lazy\">",
-        "<a href=\"https://drive.google.com/file/d/1NuN3scypwGr_6WzFUQHfKbQ4Gr40-xQs/view?usp=share_link\">surf_sniper_v2_d.zip</a>",
-        "<a href=\"#surf_sniper_v2_d\">surf_sniper_v2_d</a>"
-    ],
-    [
         "surf_sniper_v2.1",
         "Elemental",
         "2005",
@@ -3910,6 +3910,18 @@
         "<img src=\"img/surf_sniper_v2.1.jpg\" alt=\"surf_sniper_v2.1\" class=\"ImgThumbnail\" loading=\"lazy\">",
         "<a href=\"https://drive.google.com/file/d/1U0us8hsRUFsqoyLLN2iNZmH61g5B-x3N/view?usp=share_link\">surf_sniper_v2.1.zip</a>",
         "<a href=\"#surf_sniper_v2.1\">surf_sniper_v2.1</a>"
+    ],
+    [
+        "surf_sniper_v2_d",
+        "Elemental",
+        "2005",
+        "Arena",
+        "CSS",
+        "\"Remake of surf_sniper.\" Unclear if elemental made surf_sniper",
+        "",
+        "<img src=\"img/surf_sniper_v2_d.jpg\" alt=\"surf_sniper_v2_d\" class=\"ImgThumbnail\" loading=\"lazy\">",
+        "<a href=\"https://drive.google.com/file/d/1NuN3scypwGr_6WzFUQHfKbQ4Gr40-xQs/view?usp=share_link\">surf_sniper_v2_d.zip</a>",
+        "<a href=\"#surf_sniper_v2_d\">surf_sniper_v2_d</a>"
     ],
     [
         "surf_snow",
@@ -4894,18 +4906,6 @@
         "<img src=\"img/wave_of_surf.jpg\" alt=\"wave_of_surf\" class=\"ImgThumbnail\" loading=\"lazy\">",
         "<a href=\"https://drive.google.com/file/d/1lqttGyVlxxJT9FEFgC2IjFI0_MyGfxsp/view?usp=share_link\">wave_of_surf.zip</a>",
         "<a href=\"#wave_of_surf\">wave_of_surf</a>"
-    ],
-    [
-        "wsurf_randomised",
-        "Blivious",
-        "2005",
-        "Staged",
-        "CSS",
-        "Unsure of the mapper name since it's kind of broken...",
-        "",
-        "<img src=\"img/wsurf_randomised.jpg\" alt=\"wsurf_randomised\" class=\"ImgThumbnail\" loading=\"lazy\">",
-        "<a href=\"https://drive.google.com/file/d/1vs1_JfJqMltn1rtZYSsiWqMgc-PRa996/view?usp=share_link\">wsurf_randomised.zip</a>",
-        "<a href=\"#wsurf_randomised\">wsurf_randomised</a>"
     ],
     [
         "wsurf_randomised",
